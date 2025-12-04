@@ -1,0 +1,251 @@
+[
+  {
+    "id": "mb1",
+    "nombre": "Bowl de pollo teriyaki con arroz integral",
+    "base": "Pollo",
+    "porciones": 1,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "48g",
+      "grasas": "8g",
+      "calorias": "424"
+    },
+    "ingredientes": [
+      "150g de pechuga de pollo",
+      "80g de arroz integral cocido",
+      "1 taza de brócoli al vapor",
+      "½ taza de zanahoria en juliana",
+      "2 cdas de salsa teriyaki baja en sodio",
+      "1 cdta de aceite de sésamo",
+      "Semillas de sésamo para decorar"
+    ],
+    "preparacion": "Cocinar la pechuga de pollo a la plancha, cortar en tiras. Cocinar el arroz integral según instrucciones. Hervir el brócoli al vapor. En un bowl colocar el arroz como base, agregar el pollo, brócoli y zanahoria. Mezclar la salsa teriyaki con aceite de sésamo y rociar sobre el bowl. Decorar con semillas de sésamo.",
+    "conservacion": "3-4 días en heladera",
+    "categorias": ["macro-balanceada", "alto-proteina", "almuerzo", "cena", "deficit-calorico"]
+  },
+  {
+    "id": "mb2",
+    "nombre": "Tortilla de claras con avena y pavo",
+    "base": "Huevos",
+    "porciones": 1,
+    "macros": {
+      "proteina": "38g",
+      "carbohidratos": "35g",
+      "grasas": "6g",
+      "calorias": "346"
+    },
+    "ingredientes": [
+      "6 claras de huevo",
+      "1 huevo entero",
+      "50g de pavo molido",
+      "40g de avena en hojuelas",
+      "½ taza de espinacas picadas",
+      "¼ cebolla picada",
+      "Sal y pimienta al gusto",
+      "Spray de aceite"
+    ],
+    "preparacion": "Batir las claras y el huevo entero. Cocinar el pavo molido con la cebolla en una sartén con spray de aceite. Agregar las espinacas hasta que se marchiten. Añadir la avena y mezclar. Verter la mezcla de huevos sobre el pavo. Cocinar a fuego medio hasta que cuaje, voltear y cocinar por el otro lado.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["macro-balanceada", "alto-proteina", "desayuno", "deficit-calorico"]
+  },
+  {
+    "id": "mb3",
+    "nombre": "Salmón al horno con batata y espárragos",
+    "base": "Pescado",
+    "porciones": 1,
+    "macros": {
+      "proteina": "36g",
+      "carbohidratos": "42g",
+      "grasas": "14g",
+      "calorias": "442"
+    },
+    "ingredientes": [
+      "140g de filete de salmón",
+      "150g de batata en cubos",
+      "150g de espárragos",
+      "1 cdta de aceite de oliva",
+      "Jugo de ½ limón",
+      "Ajo en polvo, sal y pimienta",
+      "Hierbas frescas (eneldo o perejil)"
+    ],
+    "preparacion": "Precalentar el horno a 200°C. Colocar la batata en cubos en una bandeja con spray de aceite, hornear 15 minutos. Añadir el salmón sazonado con ajo, sal, pimienta y jugo de limón. Agregar los espárragos. Rociar con aceite de oliva. Hornear 12-15 minutos más hasta que el salmón esté cocido. Decorar con hierbas frescas.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["macro-balanceada", "alto-proteina", "almuerzo", "cena", "deficit-calorico", "omega-3"]
+  },
+  {
+    "id": "mb4",
+    "nombre": "Wrap proteico de atún con quinoa",
+    "base": "Atún",
+    "porciones": 1,
+    "macros": {
+      "proteina": "35g",
+      "carbohidratos": "38g",
+      "grasas": "9g",
+      "calorias": "373"
+    },
+    "ingredientes": [
+      "1 lata de atún en agua (120g escurrido)",
+      "60g de quinoa cocida",
+      "1 tortilla integral grande",
+      "½ taza de lechuga picada",
+      "½ tomate en rodajas",
+      "2 cdas de yogurt griego natural",
+      "1 cdta de mostaza",
+      "Pepino en rodajas",
+      "Sal y pimienta"
+    ],
+    "preparacion": "Mezclar el atún escurrido con la quinoa cocida. Preparar el aderezo mezclando yogurt griego con mostaza, sal y pimienta. En la tortilla colocar la lechuga, tomate, pepino, la mezcla de atún y quinoa. Agregar el aderezo. Enrollar firmemente y cortar por la mitad.",
+    "conservacion": "1-2 días en heladera (sin enrollar)",
+    "categorias": ["macro-balanceada", "alto-proteina", "almuerzo", "deficit-calorico", "facil"]
+  },
+  {
+    "id": "mb5",
+    "nombre": "Bowl de yogurt griego proteico",
+    "base": "Lácteos",
+    "porciones": 1,
+    "macros": {
+      "proteina": "30g",
+      "carbohidratos": "45g",
+      "grasas": "8g",
+      "calorias": "372"
+    },
+    "ingredientes": [
+      "200g de yogurt griego natural sin azúcar",
+      "40g de avena",
+      "1 banana mediana en rodajas",
+      "1 cda de semillas de chía",
+      "½ cda de miel",
+      "Frutos rojos (50g)",
+      "10g de almendras fileteadas"
+    ],
+    "preparacion": "En un bowl colocar el yogurt griego como base. Agregar la avena y mezclar. Añadir las rodajas de banana, frutos rojos y almendras. Espolvorear las semillas de chía. Rociar con miel. Se puede preparar la noche anterior para un desayuno rápido.",
+    "conservacion": "1 día en heladera (preparado la noche anterior)",
+    "categorias": ["macro-balanceada", "alto-proteina", "desayuno", "deficit-calorico", "rapido"]
+  },
+  {
+    "id": "mb6",
+    "nombre": "Pechuga de pollo con vegetales al wok",
+    "base": "Pollo",
+    "porciones": 1,
+    "macros": {
+      "proteina": "45g",
+      "carbohidratos": "28g",
+      "grasas": "10g",
+      "calorias": "386"
+    },
+    "ingredientes": [
+      "160g de pechuga de pollo en tiras",
+      "2 tazas de vegetales mixtos (brócoli, pimientos, cebolla, zanahoria)",
+      "½ taza de champiñones",
+      "2 cdas de salsa de soja baja en sodio",
+      "1 cdta de aceite de sésamo",
+      "1 diente de ajo picado",
+      "Jengibre fresco rallado",
+      "60g de arroz de coliflor"
+    ],
+    "preparacion": "Calentar el wok a fuego alto. Cocinar el pollo en tiras con spray de aceite hasta dorar. Retirar. En el mismo wok saltear el ajo y jengibre. Agregar los vegetales y saltear 3-4 minutos. Añadir el pollo, salsa de soja y aceite de sésamo. Servir sobre arroz de coliflor.",
+    "conservacion": "3-4 días en heladera",
+    "categorias": ["macro-balanceada", "alto-proteina", "almuerzo", "cena", "bajo-carbohidrato", "deficit-calorico"]
+  },
+  {
+    "id": "mb7",
+    "nombre": "Hamburguesa de pavo con batata al horno",
+    "base": "Pavo",
+    "porciones": 1,
+    "macros": {
+      "proteina": "40g",
+      "carbohidratos": "44g",
+      "grasas": "12g",
+      "calorias": "448"
+    },
+    "ingredientes": [
+      "150g de pavo molido magro",
+      "150g de batata en gajos",
+      "1 huevo para la hamburguesa",
+      "2 cdas de avena",
+      "Cebolla y ajo picados",
+      "Especias (comino, paprika, sal, pimienta)",
+      "Lechuga, tomate para servir",
+      "1 cdta de aceite de oliva"
+    ],
+    "preparacion": "Mezclar el pavo molido con huevo, avena, cebolla, ajo y especias. Formar una hamburguesa. Cocinar a la plancha 4-5 minutos por lado. Para la batata: cortar en gajos, rociar con aceite de oliva y especias. Hornear a 200°C por 25-30 minutos. Servir la hamburguesa con ensalada y los gajos de batata.",
+    "conservacion": "3-4 días en heladera",
+    "categorias": ["macro-balanceada", "alto-proteina", "almuerzo", "cena", "deficit-calorico"]
+  },
+  {
+    "id": "mb8",
+    "nombre": "Revuelto proteico de claras con pan integral",
+    "base": "Huevos",
+    "porciones": 1,
+    "macros": {
+      "proteina": "32g",
+      "carbohidratos": "40g",
+      "grasas": "7g",
+      "calorias": "347"
+    },
+    "ingredientes": [
+      "5 claras de huevo",
+      "1 huevo entero",
+      "2 rebanadas de pan integral (60g)",
+      "½ taza de champiñones picados",
+      "½ taza de tomates cherry cortados",
+      "½ taza de espinacas",
+      "2 cdas de queso cottage",
+      "Spray de aceite",
+      "Sal, pimienta y orégano"
+    ],
+    "preparacion": "En una sartén con spray de aceite saltear los champiñones y tomates cherry. Añadir las espinacas hasta marchitar. Batir las claras con el huevo entero, agregar a la sartén. Cocinar revolviendo hasta que cuaje. Agregar el queso cottage al final. Servir con las tostadas de pan integral.",
+    "conservacion": "1-2 días en heladera",
+    "categorias": ["macro-balanceada", "alto-proteina", "desayuno", "deficit-calorico", "rapido"]
+  },
+  {
+    "id": "mb9",
+    "nombre": "Ensalada de pollo con garbanzos",
+    "base": "Pollo",
+    "porciones": 1,
+    "macros": {
+      "proteina": "38g",
+      "carbohidratos": "42g",
+      "grasas": "11g",
+      "calorias": "419"
+    },
+    "ingredientes": [
+      "120g de pechuga de pollo cocida en cubos",
+      "80g de garbanzos cocidos",
+      "2 tazas de mezcla de lechugas",
+      "½ taza de tomates cherry",
+      "½ pepino en rodajas",
+      "¼ cebolla morada",
+      "1 cda de aceite de oliva",
+      "Jugo de limón",
+      "Sal, pimienta y comino"
+    ],
+    "preparacion": "En un bowl grande mezclar las lechugas, tomates, pepino y cebolla. Agregar el pollo en cubos y los garbanzos. Para el aderezo: mezclar aceite de oliva, jugo de limón, sal, pimienta y comino. Verter sobre la ensalada y mezclar bien. Servir inmediatamente.",
+    "conservacion": "2-3 días en heladera (sin aderezo)",
+    "categorias": ["macro-balanceada", "alto-proteina", "almuerzo", "ensalada", "deficit-calorico"]
+  },
+  {
+    "id": "mb10",
+    "nombre": "Batido proteico post-entreno",
+    "base": "Lácteos",
+    "porciones": 1,
+    "macros": {
+      "proteina": "35g",
+      "carbohidratos": "38g",
+      "grasas": "6g",
+      "calorias": "342"
+    },
+    "ingredientes": [
+      "1 scoop de proteína en polvo (30g)",
+      "1 banana mediana",
+      "200ml de leche descremada",
+      "1 cda de mantequilla de maní en polvo (PB2)",
+      "1 cda de avena",
+      "Hielo al gusto",
+      "Canela opcional"
+    ],
+    "preparacion": "Colocar todos los ingredientes en una licuadora. Licuar hasta obtener una consistencia suave y cremosa. Agregar más hielo si se desea más espeso. Consumir inmediatamente después del entrenamiento para máxima absorción de proteína.",
+    "conservacion": "Consumir inmediatamente",
+    "categorias": ["macro-balanceada", "alto-proteina", "batido", "post-entreno", "deficit-calorico"]
+  }
+]
