@@ -2,12 +2,21 @@
 const app = {
     recetas: {
         desayunos: [],
-        almuerzos: []
+        almuerzos: [],
+        batidos: [],
+        meriendas: [],
+        macroBalanceadas: []
     },
     planSemanal: {},
     semanasGuardadas: [],
     currentDay: null,
-    currentMeal: null
+    currentMeal: null,
+    macrosObjetivo: {
+        proteina: 120,
+        carbohidratos: 160,
+        grasas: 53,
+        calorias: 1600
+    }
 };
 
 // Días de la semana
@@ -21,19 +30,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     inicializarTabs();
     renderizarPlanificador();
     renderizarRecetas();
+    renderizarMacrosTracker();
     setupEventListeners();
 });
 
 // Cargar recetas desde archivos JSON
 async function cargarRecetas() {
     try {
-        const [desayunosRes, almuerzosRes] = await Promise.all([
+        const [desayunosRes, almuerzosRes, batidosRes, meriendasRes, macroBalRes] = await Promise.all([
             fetch('recipes/desayunos/recetas-desayunos.json'),
-            fetch('recipes/almuerzos-cenas/recetas-almuerzos-cenas.json')
+            fetch('recipes/almuerzos-cenas/recetas-almuerzos-cenas.json'),
+            fetch('recipes/batidos/recetas-batidos.json'),
+            fetch('recipes/meriendas/recetas-meriendas.json'),
+            fetch('recipes/macro-balanceadas/recetas-macro-balanceadas.json')
         ]);
-        
+
         app.recetas.desayunos = await desayunosRes.json();
         app.recetas.almuerzos = await almuerzosRes.json();
+        app.recetas.batidos = await batidosRes.json();
+        app.recetas.meriendas = await meriendasRes.json();
+        app.recetas.macroBalanceadas = await macroBalRes.json();
     } catch (error) {
         console.error('Error cargando recetas:', error);
         mostrarNotificacion('Error al cargar las recetas', 'error');
@@ -108,23 +124,102 @@ function renderizarPlanificador() {
 
 // Buscar receta por ID
 function buscarReceta(id) {
-    const todasRecetas = [...app.recetas.desayunos, ...app.recetas.almuerzos];
+    const todasRecetas = [
+        ...app.recetas.desayunos,
+        ...app.recetas.almuerzos,
+        ...app.recetas.batidos,
+        ...app.recetas.meriendas,
+        ...app.recetas.macroBalanceadas
+    ];
     return todasRecetas.find(r => r.id === id);
+}
+
+// Calcular macros de un día específico
+function calcularMacrosDia(dia) {
+    if (!app.planSemanal[dia]) return null;
+
+    let proteina = 0, carbohidratos = 0, grasas = 0, calorias = 0;
+
+    Object.values(app.planSemanal[dia]).forEach(recetaId => {
+        const receta = buscarReceta(recetaId);
+        if (receta && receta.macros) {
+            proteina += parseInt(receta.macros.proteina) || 0;
+            carbohidratos += parseInt(receta.macros.carbohidratos) || 0;
+            grasas += parseInt(receta.macros.grasas) || 0;
+            calorias += parseInt(receta.macros.calorias) || 0;
+        }
+    });
+
+    return { proteina, carbohidratos, grasas, calorias };
+}
+
+// Renderizar tracker de macros para un día
+function renderizarMacrosTracker() {
+    const container = document.getElementById('macrosTrackerContainer');
+    if (!container) return;
+
+    // Seleccionar día actual para tracking
+    const diaActual = DIAS[new Date().getDay() - 1] || DIAS[0]; // Lunes por defecto
+    const macrosDia = calcularMacrosDia(diaActual) || { proteina: 0, carbohidratos: 0, grasas: 0, calorias: 0 };
+
+    const porcentajes = {
+        proteina: Math.round((macrosDia.proteina / app.macrosObjetivo.proteina) * 100),
+        carbohidratos: Math.round((macrosDia.carbohidratos / app.macrosObjetivo.carbohidratos) * 100),
+        grasas: Math.round((macrosDia.grasas / app.macrosObjetivo.grasas) * 100),
+        calorias: Math.round((macrosDia.calorias / app.macrosObjetivo.calorias) * 100)
+    };
+
+    container.innerHTML = `
+        <div class="macros-tracker">
+            <h3>Macros para ${diaActual}</h3>
+            <div class="macro-item">
+                <div class="macro-label">Proteína</div>
+                <div class="macro-progress">
+                    <div class="macro-bar" style="width: ${Math.min(porcentajes.proteina, 100)}%; background: #c17a5c;"></div>
+                </div>
+                <div class="macro-value">${macrosDia.proteina}g / ${app.macrosObjetivo.proteina}g (${porcentajes.proteina}%)</div>
+            </div>
+            <div class="macro-item">
+                <div class="macro-label">Carbohidratos</div>
+                <div class="macro-progress">
+                    <div class="macro-bar" style="width: ${Math.min(porcentajes.carbohidratos, 100)}%; background: #d4b896;"></div>
+                </div>
+                <div class="macro-value">${macrosDia.carbohidratos}g / ${app.macrosObjetivo.carbohidratos}g (${porcentajes.carbohidratos}%)</div>
+            </div>
+            <div class="macro-item">
+                <div class="macro-label">Grasas</div>
+                <div class="macro-progress">
+                    <div class="macro-bar" style="width: ${Math.min(porcentajes.grasas, 100)}%; background: #7d9e6d;"></div>
+                </div>
+                <div class="macro-value">${macrosDia.grasas}g / ${app.macrosObjetivo.grasas}g (${porcentajes.grasas}%)</div>
+            </div>
+            <div class="macro-item">
+                <div class="macro-label">Calorías</div>
+                <div class="macro-progress">
+                    <div class="macro-bar" style="width: ${Math.min(porcentajes.calorias, 100)}%; background: #a76447;"></div>
+                </div>
+                <div class="macro-value">${macrosDia.calorias} / ${app.macrosObjetivo.calorias} (${porcentajes.calorias}%)</div>
+            </div>
+        </div>
+    `;
 }
 
 // Abrir selector de recetas
 function abrirSelectorReceta(dia, comida) {
     app.currentDay = dia;
     app.currentMeal = comida;
-    
+
     const modal = document.getElementById('seleccionarRecetaModal');
     const content = document.getElementById('seleccionarRecetaContent');
-    
+
     // Filtrar recetas según el tipo de comida
-    const recetasFiltradas = comida === 'desayuno' 
-        ? app.recetas.desayunos 
-        : [...app.recetas.almuerzos];
-    
+    let recetasFiltradas = [];
+    if (comida === 'desayuno') {
+        recetasFiltradas = [...app.recetas.desayunos, ...app.recetas.batidos];
+    } else {
+        recetasFiltradas = [...app.recetas.almuerzos, ...app.recetas.meriendas, ...app.recetas.macroBalanceadas];
+    }
+
     content.innerHTML = `
         <h2>Selecciona una receta para ${capitalize(comida)} - ${dia}</h2>
         <input type="text" class="search-input" placeholder="🔍 Buscar receta..." id="buscarRecetaModal" style="margin: 20px 0;">
@@ -136,6 +231,11 @@ function abrirSelectorReceta(dia, comida) {
                     </div>
                     <div class="recipe-base">${receta.base}</div>
                     <div class="recipe-info">👥 ${receta.porciones} porciones</div>
+                    ${receta.macros ? `
+                        <div class="recipe-macros" style="font-size: 0.85rem; color: #6b5d52; margin-top: 8px;">
+                            💪 ${receta.macros.proteina} P • 🌾 ${receta.macros.carbohidratos} C • 🥑 ${receta.macros.grasas} G • 🔥 ${receta.macros.calorias} cal
+                        </div>
+                    ` : ''}
                     <div class="recipe-categories">
                         ${receta.categorias.map(cat => `<span class="category-tag">${cat}</span>`).join('')}
                     </div>
@@ -143,23 +243,28 @@ function abrirSelectorReceta(dia, comida) {
             `).join('')}
         </div>
     `;
-    
+
     modal.classList.add('show');
-    
+
     // Agregar funcionalidad de búsqueda
     document.getElementById('buscarRecetaModal').addEventListener('input', (e) => {
         const termino = e.target.value.toLowerCase();
         const grid = document.getElementById('selectorRecetasGrid');
-        const recetasFiltradas = (comida === 'desayuno' ? app.recetas.desayunos : app.recetas.almuerzos)
+        const filtradas = recetasFiltradas
             .filter(r => r.nombre.toLowerCase().includes(termino) || r.base.toLowerCase().includes(termino));
-        
-        grid.innerHTML = recetasFiltradas.map(receta => `
+
+        grid.innerHTML = filtradas.map(receta => `
             <div class="recipe-card" onclick="seleccionarReceta('${receta.id}')">
                 <div class="recipe-header">
                     <div class="recipe-name">${receta.nombre}</div>
                 </div>
                 <div class="recipe-base">${receta.base}</div>
                 <div class="recipe-info">👥 ${receta.porciones} porciones</div>
+                ${receta.macros ? `
+                    <div class="recipe-macros" style="font-size: 0.85rem; color: #6b5d52; margin-top: 8px;">
+                        💪 ${receta.macros.proteina} P • 🌾 ${receta.macros.carbohidratos} C • 🥑 ${receta.macros.grasas} G • 🔥 ${receta.macros.calorias} cal
+                    </div>
+                ` : ''}
                 <div class="recipe-categories">
                     ${receta.categorias.map(cat => `<span class="category-tag">${cat}</span>`).join('')}
                 </div>
@@ -174,9 +279,10 @@ function seleccionarReceta(recetaId) {
         app.planSemanal[app.currentDay] = {};
     }
     app.planSemanal[app.currentDay][app.currentMeal] = recetaId;
-    
+
     cerrarModal('seleccionarRecetaModal');
     renderizarPlanificador();
+    renderizarMacrosTracker();
     mostrarNotificacion('Receta agregada al planificador', 'success');
 }
 
@@ -188,6 +294,7 @@ function removerReceta(dia, comida) {
             delete app.planSemanal[dia];
         }
         renderizarPlanificador();
+        renderizarMacrosTracker();
         mostrarNotificacion('Receta removida', 'success');
     }
 }
@@ -196,10 +303,10 @@ function removerReceta(dia, comida) {
 function verDetalleReceta(recetaId) {
     const receta = buscarReceta(recetaId);
     if (!receta) return;
-    
+
     const modal = document.getElementById('recetaModal');
     const content = document.getElementById('recetaDetalles');
-    
+
     content.innerHTML = `
         <div class="recipe-detail">
             <h2>${receta.nombre}</h2>
@@ -208,6 +315,14 @@ function verDetalleReceta(recetaId) {
                 <div><strong>Porciones:</strong> ${receta.porciones}</div>
                 <div><strong>Conservación:</strong> ${receta.conservacion}</div>
             </div>
+            ${receta.macros ? `
+                <div class="recipe-detail-info" style="background: #e8f3e1; border-color: #d4b896;">
+                    <div><strong>Proteína:</strong> ${receta.macros.proteina}</div>
+                    <div><strong>Carbohidratos:</strong> ${receta.macros.carbohidratos}</div>
+                    <div><strong>Grasas:</strong> ${receta.macros.grasas}</div>
+                    <div><strong>Calorías:</strong> ${receta.macros.calorias}</div>
+                </div>
+            ` : ''}
             <h3>Ingredientes</h3>
             <ul>
                 ${receta.ingredientes.map(ing => `<li>${ing}</li>`).join('')}
@@ -216,15 +331,21 @@ function verDetalleReceta(recetaId) {
             <p>${receta.preparacion}</p>
         </div>
     `;
-    
+
     modal.classList.add('show');
 }
 
 // Renderizar todas las recetas
 function renderizarRecetas() {
     const grid = document.getElementById('recetasGrid');
-    const todasRecetas = [...app.recetas.desayunos, ...app.recetas.almuerzos];
-    
+    const todasRecetas = [
+        ...app.recetas.desayunos,
+        ...app.recetas.almuerzos,
+        ...app.recetas.batidos,
+        ...app.recetas.meriendas,
+        ...app.recetas.macroBalanceadas
+    ];
+
     grid.innerHTML = todasRecetas.map(receta => `
         <div class="recipe-card" onclick="verDetalleReceta('${receta.id}')">
             <div class="recipe-header">
@@ -232,6 +353,11 @@ function renderizarRecetas() {
             </div>
             <div class="recipe-base">${receta.base}</div>
             <div class="recipe-info">👥 ${receta.porciones} porciones • ⏰ ${receta.conservacion}</div>
+            ${receta.macros ? `
+                <div class="recipe-macros" style="font-size: 0.85rem; color: #6b5d52; margin-top: 8px;">
+                    💪 ${receta.macros.proteina} P • 🌾 ${receta.macros.carbohidratos} C • 🥑 ${receta.macros.grasas} G • 🔥 ${receta.macros.calorias} cal
+                </div>
+            ` : ''}
             <div class="recipe-categories">
                 ${receta.categorias.map(cat => `<span class="category-tag">${cat}</span>`).join('')}
             </div>
@@ -449,13 +575,19 @@ function setupEventListeners() {
     // Búsqueda de recetas
     document.getElementById('buscarReceta').addEventListener('input', (e) => {
         const termino = e.target.value.toLowerCase();
-        const todasRecetas = [...app.recetas.desayunos, ...app.recetas.almuerzos];
-        const recetasFiltradas = todasRecetas.filter(r => 
-            r.nombre.toLowerCase().includes(termino) || 
+        const todasRecetas = [
+            ...app.recetas.desayunos,
+            ...app.recetas.almuerzos,
+            ...app.recetas.batidos,
+            ...app.recetas.meriendas,
+            ...app.recetas.macroBalanceadas
+        ];
+        const recetasFiltradas = todasRecetas.filter(r =>
+            r.nombre.toLowerCase().includes(termino) ||
             r.base.toLowerCase().includes(termino) ||
             r.categorias.some(cat => cat.toLowerCase().includes(termino))
         );
-        
+
         const grid = document.getElementById('recetasGrid');
         grid.innerHTML = recetasFiltradas.map(receta => `
             <div class="recipe-card" onclick="verDetalleReceta('${receta.id}')">
@@ -464,6 +596,11 @@ function setupEventListeners() {
                 </div>
                 <div class="recipe-base">${receta.base}</div>
                 <div class="recipe-info">👥 ${receta.porciones} porciones • ⏰ ${receta.conservacion}</div>
+                ${receta.macros ? `
+                    <div class="recipe-macros" style="font-size: 0.85rem; color: #6b5d52; margin-top: 8px;">
+                        💪 ${receta.macros.proteina} P • 🌾 ${receta.macros.carbohidratos} C • 🥑 ${receta.macros.grasas} G • 🔥 ${receta.macros.calorias} cal
+                    </div>
+                ` : ''}
                 <div class="recipe-categories">
                     ${receta.categorias.map(cat => `<span class="category-tag">${cat}</span>`).join('')}
                 </div>
@@ -476,15 +613,21 @@ function setupEventListeners() {
         btn.addEventListener('click', function() {
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             this.classList.add('active');
-            
+
             const filter = this.getAttribute('data-filter');
-            const todasRecetas = [...app.recetas.desayunos, ...app.recetas.almuerzos];
-            
+            const todasRecetas = [
+                ...app.recetas.desayunos,
+                ...app.recetas.almuerzos,
+                ...app.recetas.batidos,
+                ...app.recetas.meriendas,
+                ...app.recetas.macroBalanceadas
+            ];
+
             let recetasFiltradas = todasRecetas;
             if (filter !== 'all') {
                 recetasFiltradas = todasRecetas.filter(r => r.categorias.includes(filter));
             }
-            
+
             const grid = document.getElementById('recetasGrid');
             grid.innerHTML = recetasFiltradas.map(receta => `
                 <div class="recipe-card" onclick="verDetalleReceta('${receta.id}')">
@@ -493,6 +636,11 @@ function setupEventListeners() {
                     </div>
                     <div class="recipe-base">${receta.base}</div>
                     <div class="recipe-info">👥 ${receta.porciones} porciones • ⏰ ${receta.conservacion}</div>
+                    ${receta.macros ? `
+                        <div class="recipe-macros" style="font-size: 0.85rem; color: #6b5d52; margin-top: 8px;">
+                            💪 ${receta.macros.proteina} P • 🌾 ${receta.macros.carbohidratos} C • 🥑 ${receta.macros.grasas} G • 🔥 ${receta.macros.calorias} cal
+                        </div>
+                    ` : ''}
                     <div class="recipe-categories">
                         ${receta.categorias.map(cat => `<span class="category-tag">${cat}</span>`).join('')}
                     </div>

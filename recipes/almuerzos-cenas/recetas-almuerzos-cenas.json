@@ -4,6 +4,12 @@
     "nombre": "Bowl mexicano",
     "base": "Carne molida al guiso",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "48g",
+      "grasas": "26g",
+      "calorias": "596"
+    },
     "ingredientes": [
       "340 g de la carne molida al guiso",
       "1 taza de quínoa cocida o arroz integral cocido",
@@ -25,6 +31,12 @@
     "nombre": "Pasta zucchini mediterránea",
     "base": "Carne molida al guiso",
     "porciones": 2,
+    "macros": {
+      "proteina": "40g",
+      "carbohidratos": "12g",
+      "grasas": "28g",
+      "calorias": "464"
+    },
     "ingredientes": [
       "340 g de carne molida al guiso",
       "4-5 tazas de pasta zucchini (espiralizador de verduras)",
@@ -44,6 +56,12 @@
     "nombre": "Wraps trending",
     "base": "Carne molida al guiso",
     "porciones": 2,
+    "macros": {
+      "proteina": "38g",
+      "carbohidratos": "35g",
+      "grasas": "18g",
+      "calorias": "464"
+    },
     "ingredientes": [
       "340 g de carne molida al guiso",
       "Un par de hojas de lechuga grandes",
@@ -61,6 +79,12 @@
     "nombre": "Lasaña de zucchini y carne molida",
     "base": "Carne molida al guiso",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "15g",
+      "grasas": "30g",
+      "calorias": "496"
+    },
     "ingredientes": [
       "340 g de carne molida al guiso",
       "3 cdas de queso mozzarella rallado",
@@ -76,6 +100,12 @@
     "nombre": "Canastitas de arroz rellenas con carne molida y verduras salteadas",
     "base": "Carne molida al guiso",
     "porciones": 2,
+    "macros": {
+      "proteina": "40g",
+      "carbohidratos": "52g",
+      "grasas": "24g",
+      "calorias": "584"
+    },
     "ingredientes": [
       "340 g de carne molida al guiso",
       "1 huevo",
@@ -99,6 +129,12 @@
     "nombre": "Molde 3 Capas (carne, brócoli y puré de papas)",
     "base": "Carne molida al guiso",
     "porciones": 2,
+    "macros": {
+      "proteina": "40g",
+      "carbohidratos": "58g",
+      "grasas": "26g",
+      "calorias": "628"
+    },
     "ingredientes": [
       "340 g de carne molida al guiso",
       "3 cdas de queso mozzarella rallado",
@@ -118,6 +154,12 @@
     "nombre": "Túnel de banana relleno de pollo",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "48g",
+      "grasas": "20g",
+      "calorias": "536"
+    },
     "ingredientes": [
       "1 banana madura",
       "340 g de pollo desmechado",
@@ -135,6 +177,12 @@
     "nombre": "Pastel de pollo a la sartén",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "44g",
+      "carbohidratos": "12g",
+      "grasas": "26g",
+      "calorias": "456"
+    },
     "ingredientes": [
       "340 g de pollo desmechado",
       "2 huevos",
@@ -159,6 +207,12 @@
     "nombre": "Ensalada ranch de pollo",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "32g",
+      "grasas": "22g",
+      "calorias": "496"
+    },
     "ingredientes": [
       "340 g de pollo desmechado",
       "1 ½ taza de repollo picado finamente",
@@ -179,6 +233,12 @@
     "nombre": "Sándwich de berenjena con pollo",
     "base": "Pollo desmechado",
     "porciones": 1,
+    "macros": {
+      "proteina": "38g",
+      "carbohidratos": "18g",
+      "grasas": "16g",
+      "calorias": "368"
+    },
     "ingredientes": [
       "170 g de pechuga de pollo desmechada",
       "1 berenjena mediana (o zucchini)",
@@ -198,6 +258,12 @@
     "nombre": "Desgranado cremoso de pollo",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "44g",
+      "carbohidratos": "28g",
+      "grasas": "20g",
+      "calorias": "468"
+    },
     "ingredientes": [
       "340 g de pollo desmechado",
       "1 taza de choclo desgranado",
@@ -219,6 +285,12 @@
     "nombre": "Milanesa de pollo sobre banana frita con aderezo ranch",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "52g",
+      "grasas": "22g",
+      "calorias": "568"
+    },
     "ingredientes": [
       "1 banana (ni verde, ni madura)",
       "340 g de pollo desmechado",
@@ -236,6 +308,12 @@
     "nombre": "Croquetas de salmón y quínoa",
     "base": "Salmón",
     "porciones": 2,
+    "macros": {
+      "proteina": "44g",
+      "carbohidratos": "38g",
+      "grasas": "28g",
+      "calorias": "572"
+    },
     "ingredientes": [
       "340 g de salmón a la plancha",
       "1 huevo",
@@ -257,6 +335,12 @@
     "nombre": "Arroz de coliflor con salmón",
     "base": "Salmón",
     "porciones": 2,
+    "macros": {
+      "proteina": "46g",
+      "carbohidratos": "18g",
+      "grasas": "32g",
+      "calorias": "540"
+    },
     "ingredientes": [
       "285 g de salmón a la plancha",
       "2 huevos",
@@ -281,6 +365,12 @@
     "nombre": "Wok especial de salmón",
     "base": "Salmón",
     "porciones": 2,
+    "macros": {
+      "proteina": "44g",
+      "carbohidratos": "52g",
+      "grasas": "30g",
+      "calorias": "656"
+    },
     "ingredientes": [
       "340 g de salmón a la plancha",
       "1 taza de arroz integral cocido (o quínoa)",
@@ -306,6 +396,12 @@
     "nombre": "Croquetas dulces de salmón con crema de palta",
     "base": "Salmón",
     "porciones": 2,
+    "macros": {
+      "proteina": "46g",
+      "carbohidratos": "42g",
+      "grasas": "34g",
+      "calorias": "660"
+    },
     "ingredientes": [
       "340 g de salmón a la plancha",
       "170 g de batata horneada",
@@ -328,6 +424,12 @@
     "nombre": "Enrollado de salmón con crema de palta",
     "base": "Salmón",
     "porciones": 2,
+    "macros": {
+      "proteina": "40g",
+      "carbohidratos": "12g",
+      "grasas": "36g",
+      "calorias": "528"
+    },
     "ingredientes": [
       "4 huevos completos",
       "230 g de salmón a la plancha",
@@ -346,6 +448,12 @@
     "nombre": "Canelones de berenjena rellenos con pollo molido",
     "base": "Pollo molido",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "15g",
+      "grasas": "24g",
+      "calorias": "444"
+    },
     "ingredientes": [
       "285 g de pollo molido al guiso",
       "4 cdas de queso cottage",
@@ -365,6 +473,12 @@
     "nombre": "Bandejón de arroz, pollo y verduras",
     "base": "Pollo molido",
     "porciones": 2,
+    "macros": {
+      "proteina": "40g",
+      "carbohidratos": "48g",
+      "grasas": "18g",
+      "calorias": "512"
+    },
     "ingredientes": [
       "285 g de pollo molido al guiso",
       "2 huevos",
@@ -387,6 +501,12 @@
     "nombre": "Bowl de batata y pollo",
     "base": "Pollo molido",
     "porciones": 2,
+    "macros": {
+      "proteina": "40g",
+      "carbohidratos": "58g",
+      "grasas": "20g",
+      "calorias": "560"
+    },
     "ingredientes": [
       "340 g de pollo molido al guiso",
       "230 g de batata horneada picada en cubos pequeños",
@@ -410,6 +530,12 @@
     "nombre": "Lasaña de berenjena y pollo molido",
     "base": "Pollo molido",
     "porciones": 2,
+    "macros": {
+      "proteina": "44g",
+      "carbohidratos": "18g",
+      "grasas": "28g",
+      "calorias": "500"
+    },
     "ingredientes": [
       "340 g de pollo molido al guiso",
       "3 cdas de queso mozzarella rallado",
@@ -425,6 +551,12 @@
     "nombre": "Croquetas de banana rellenas de pollo molido",
     "base": "Pollo molido",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "55g",
+      "grasas": "18g",
+      "calorias": "548"
+    },
     "ingredientes": [
       "340 g de pollo molido al guiso",
       "1 banana madura",
@@ -441,6 +573,12 @@
     "nombre": "Canoas de zucchini rellenas de pollo molido",
     "base": "Pollo molido",
     "porciones": 2,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "10g",
+      "grasas": "20g",
+      "calorias": "384"
+    },
     "ingredientes": [
       "340 g de pollo molido al guiso",
       "2 zucchini medianos",

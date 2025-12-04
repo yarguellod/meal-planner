@@ -4,6 +4,12 @@
     "nombre": "Batido verde de manzana",
     "base": "Frutas y verduras",
     "porciones": 1,
+    "macros": {
+      "proteina": "3g",
+      "carbohidratos": "28g",
+      "grasas": "1g",
+      "calorias": "128"
+    },
     "ingredientes": [
       "1/2 atado fresco de espinaca blanca (o congelada)",
       "1 manzana verde",
@@ -22,6 +28,12 @@
     "nombre": "Batido verde de pera",
     "base": "Frutas y verduras",
     "porciones": 1,
+    "macros": {
+      "proteina": "3g",
+      "carbohidratos": "32g",
+      "grasas": "1g",
+      "calorias": "144"
+    },
     "ingredientes": [
       "1/2 atado fresco de espinaca blanca (o congelada)",
       "1 pera",

@@ -4,6 +4,12 @@
     "nombre": "Bolitas de arroz",
     "base": "Cereales",
     "porciones": 2,
+    "macros": {
+      "proteina": "8g",
+      "carbohidratos": "88g",
+      "grasas": "6g",
+      "calorias": "428"
+    },
     "ingredientes": [
       "1 taza de arroz",
       "2 tazas de agua",
@@ -21,6 +27,12 @@
     "nombre": "Chia pudding",
     "base": "Lácteos",
     "porciones": 1,
+    "macros": {
+      "proteina": "14g",
+      "carbohidratos": "32g",
+      "grasas": "16g",
+      "calorias": "324"
+    },
     "ingredientes": [
       "1/2 taza de leche ó leche de semillas",
       "2 cdas. de semillas de chía",
@@ -37,6 +49,12 @@
     "nombre": "Coquitos",
     "base": "Huevo",
     "porciones": 12,
+    "macros": {
+      "proteina": "18g",
+      "carbohidratos": "72g",
+      "grasas": "60g",
+      "calorias": "852"
+    },
     "ingredientes": [
       "100 grs. de coco rallado",
       "80 grs. de azúcar mascabo",
@@ -52,6 +70,12 @@
     "nombre": "Fruta cocinada (compota)",
     "base": "Frutas",
     "porciones": 4,
+    "macros": {
+      "proteina": "2g",
+      "carbohidratos": "96g",
+      "grasas": "1g",
+      "calorias": "392"
+    },
     "ingredientes": [
       "4 manzanas",
       "2 peras",
@@ -68,6 +92,12 @@
     "nombre": "Almond cookie",
     "base": "Frutos secos",
     "porciones": 12,
+    "macros": {
+      "proteina": "32g",
+      "carbohidratos": "120g",
+      "grasas": "88g",
+      "calorias": "1352"
+    },
     "ingredientes": [
       "2 huevos",
       "Ralladura de ½ limón",
@@ -85,6 +115,12 @@
     "nombre": "Mango lassi",
     "base": "Lácteos",
     "porciones": 2,
+    "macros": {
+      "proteina": "14g",
+      "carbohidratos": "88g",
+      "grasas": "8g",
+      "calorias": "472"
+    },
     "ingredientes": [
       "2 mangos maduros",
       "500 gr. de yogurt natural",
@@ -101,6 +137,12 @@
     "nombre": "Mermelada viva",
     "base": "Frutas",
     "porciones": 2,
+    "macros": {
+      "proteina": "4g",
+      "carbohidratos": "48g",
+      "grasas": "6g",
+      "calorias": "260"
+    },
     "ingredientes": [
       "1 taza de cualquier fruta dulce/jugosa",
       "2-3 cucharadas de chía",
@@ -115,6 +157,12 @@
     "nombre": "Natillas horneadas",
     "base": "Lácteos",
     "porciones": 4,
+    "macros": {
+      "proteina": "32g",
+      "carbohidratos": "52g",
+      "grasas": "28g",
+      "calorias": "576"
+    },
     "ingredientes": [
       "4 huevos orgánicos",
       "3 cdas. de azúcar orgánica",
@@ -132,6 +180,12 @@
     "nombre": "Manteca de almendra",
     "base": "Frutos secos",
     "porciones": 8,
+    "macros": {
+      "proteina": "48g",
+      "carbohidratos": "48g",
+      "grasas": "112g",
+      "calorias": "1312"
+    },
     "ingredientes": [
       "2 tazas de almendras",
       "1 pizca de sal"
@@ -145,6 +199,12 @@
     "nombre": "Paleo muffin",
     "base": "Frutos secos",
     "porciones": 12,
+    "macros": {
+      "proteina": "48g",
+      "carbohidratos": "84g",
+      "grasas": "120g",
+      "calorias": "1560"
+    },
     "ingredientes": [
       "4 huevos grandes",
       "1/2 taza de leche ó leche vegetal",
@@ -164,6 +224,12 @@
     "nombre": "Trufas de chocolate",
     "base": "Frutos secos",
     "porciones": 12,
+    "macros": {
+      "proteina": "12g",
+      "carbohidratos": "144g",
+      "grasas": "36g",
+      "calorias": "900"
+    },
     "ingredientes": [
       "1 taza de dátiles",
       "1/2 taza de nueces",
@@ -181,6 +247,12 @@
     "nombre": "Papilla de banana",
     "base": "Frutas",
     "porciones": 1,
+    "macros": {
+      "proteina": "2g",
+      "carbohidratos": "42g",
+      "grasas": "1g",
+      "calorias": "180"
+    },
     "ingredientes": [
       "1 banana madura",
       "Jugo de ½ limón",
@@ -195,6 +267,12 @@
     "nombre": "Tortitas de banana",
     "base": "Huevo",
     "porciones": 6,
+    "macros": {
+      "proteina": "42g",
+      "carbohidratos": "82g",
+      "grasas": "48g",
+      "calorias": "912"
+    },
     "ingredientes": [
       "3 bananas maduras",
       "1 cta. de canela",
@@ -212,6 +290,12 @@
     "nombre": "Crema de avena",
     "base": "Cereales",
     "porciones": 1,
+    "macros": {
+      "proteina": "12g",
+      "carbohidratos": "68g",
+      "grasas": "12g",
+      "calorias": "428"
+    },
     "ingredientes": [
       "1 puñado de avena arrollada remojada",
       "1 chorrito de leche ó leche vegetal",
@@ -228,6 +312,12 @@
     "nombre": "Verduras crudas con dip",
     "base": "Verduras",
     "porciones": 2,
+    "macros": {
+      "proteina": "8g",
+      "carbohidratos": "24g",
+      "grasas": "18g",
+      "calorias": "288"
+    },
     "ingredientes": [
       "Palitos de zanahoria",
       "Tomates cherry",

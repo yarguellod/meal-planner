@@ -4,6 +4,12 @@
     "nombre": "Muffins de champiñones y espinaca",
     "base": "Huevos",
     "porciones": 2,
+    "macros": {
+      "proteina": "32g",
+      "carbohidratos": "8g",
+      "grasas": "22g",
+      "calorias": "356"
+    },
     "ingredientes": [
       "4 huevos completos + 4 claras",
       "2 cdas queso mozzarella rallado",
@@ -27,6 +33,12 @@
     "nombre": "Tortilla mixta (huevo, papa y verduras)",
     "base": "Huevos",
     "porciones": 2,
+    "macros": {
+      "proteina": "30g",
+      "carbohidratos": "52g",
+      "grasas": "20g",
+      "calorias": "500"
+    },
     "ingredientes": [
       "4 huevos + 4 claras",
       "230 g de papa cocida",
@@ -50,6 +62,12 @@
     "nombre": "Tostada con crema de huevo y palta",
     "base": "Huevos",
     "porciones": 2,
+    "macros": {
+      "proteina": "28g",
+      "carbohidratos": "45g",
+      "grasas": "24g",
+      "calorias": "504"
+    },
     "ingredientes": [
       "4 huevos",
       "4 cdas queso cottage",
@@ -76,6 +94,12 @@
     "nombre": "Magdalenas de zanahoria y queso",
     "base": "Huevos",
     "porciones": 2,
+    "macros": {
+      "proteina": "30g",
+      "carbohidratos": "35g",
+      "grasas": "20g",
+      "calorias": "440"
+    },
     "ingredientes": [
       "3 huevos + 4 claras",
       "2 cdas de yogurt griego",
@@ -100,6 +124,12 @@
     "nombre": "Croquetas campesinas (arroz, choclo y panceta)",
     "base": "Huevos",
     "porciones": 2,
+    "macros": {
+      "proteina": "34g",
+      "carbohidratos": "40g",
+      "grasas": "24g",
+      "calorias": "520"
+    },
     "ingredientes": [
       "4 huevos + 4 claras",
       "½ taza de arroz integral cocido",
@@ -123,6 +153,12 @@
     "nombre": "Bandeja horneada de huevos y verduras",
     "base": "Huevos",
     "porciones": 2,
+    "macros": {
+      "proteina": "32g",
+      "carbohidratos": "28g",
+      "grasas": "22g",
+      "calorias": "432"
+    },
     "ingredientes": [
       "4 huevos + 4 claras",
       "4 cdas de avena en hojuelas",
@@ -150,6 +186,12 @@
     "nombre": "Empanadas de batata rellenas con pollo",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "36g",
+      "carbohidratos": "48g",
+      "grasas": "16g",
+      "calorias": "472"
+    },
     "ingredientes": [
       "230 g del pollo desmechado",
       "230 g de batata",
@@ -170,6 +212,12 @@
     "nombre": "Burritos de pollo y verduras",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "38g",
+      "carbohidratos": "55g",
+      "grasas": "18g",
+      "calorias": "532"
+    },
     "ingredientes": [
       "1 taza de avena en hojuelas",
       "1 taza de agua tibia",
@@ -193,6 +241,12 @@
     "nombre": "Muffins cremosos de pollo y espinaca",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "34g",
+      "carbohidratos": "8g",
+      "grasas": "20g",
+      "calorias": "352"
+    },
     "ingredientes": [
       "115 g de pollo desmechado",
       "2 cdas de queso cottage o ricota",
@@ -218,6 +272,12 @@
     "nombre": "Tortitas de mandioca rellena con pollo desmechado",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "36g",
+      "carbohidratos": "62g",
+      "grasas": "20g",
+      "calorias": "568"
+    },
     "ingredientes": [
       "230 g de mandioca cocida",
       "1 pizca de sal",
@@ -238,6 +298,12 @@
     "nombre": "Omelette relleno de pollo y champiñones",
     "base": "Pollo desmechado",
     "porciones": 2,
+    "macros": {
+      "proteina": "36g",
+      "carbohidratos": "10g",
+      "grasas": "18g",
+      "calorias": "340"
+    },
     "ingredientes": [
       "4 huevos",
       "2 cdas de queso cottage o ricota",
@@ -262,6 +328,12 @@
     "nombre": "Bolitas de banana y atún",
     "base": "Atún",
     "porciones": 2,
+    "macros": {
+      "proteina": "32g",
+      "carbohidratos": "58g",
+      "grasas": "10g",
+      "calorias": "440"
+    },
     "ingredientes": [
       "230 g de atún al guiso",
       "170 g de banana madura",
@@ -283,6 +355,12 @@
     "nombre": "Arepa de avena y zanahoria rellena con atún al guiso",
     "base": "Atún",
     "porciones": 2,
+    "macros": {
+      "proteina": "34g",
+      "carbohidratos": "50g",
+      "grasas": "20g",
+      "calorias": "508"
+    },
     "ingredientes": [
       "6 cdas de avena en hojuelas",
       "2 cdas de chía",
@@ -304,6 +382,12 @@
     "nombre": "Pastel de batata con atún y verduras",
     "base": "Atún",
     "porciones": 2,
+    "macros": {
+      "proteina": "30g",
+      "carbohidratos": "56g",
+      "grasas": "8g",
+      "calorias": "416"
+    },
     "ingredientes": [
       "170 g de atún al guiso",
       "230 g de batata",
@@ -324,6 +408,12 @@
     "nombre": "Cupcakes de atún y verduras",
     "base": "Atún",
     "porciones": 2,
+    "macros": {
+      "proteina": "28g",
+      "carbohidratos": "32g",
+      "grasas": "18g",
+      "calorias": "400"
+    },
     "ingredientes": [
       "170 g de atún al guiso",
       "2 huevos",
@@ -348,6 +438,12 @@
     "nombre": "Paté de atún",
     "base": "Atún",
     "porciones": 2,
+    "macros": {
+      "proteina": "32g",
+      "carbohidratos": "42g",
+      "grasas": "22g",
+      "calorias": "488"
+    },
     "ingredientes": [
       "230 g de atún al guiso",
       "2 cdas de queso cottage",
@@ -370,6 +466,12 @@
     "nombre": "Tartaleta de atún",
     "base": "Atún",
     "porciones": 2,
+    "macros": {
+      "proteina": "30g",
+      "carbohidratos": "48g",
+      "grasas": "20g",
+      "calorias": "492"
+    },
     "ingredientes": [
       "170 g de atún al guiso",
       "2 huevos",
@@ -392,6 +494,12 @@
     "nombre": "Wraps de avena",
     "base": "Cereales",
     "porciones": 1,
+    "macros": {
+      "proteina": "12g",
+      "carbohidratos": "30g",
+      "grasas": "18g",
+      "calorias": "328"
+    },
     "ingredientes": [
       "3 cdas de harina de avena",
       "1 cdita ajo en polvo o cebolla",
@@ -413,6 +521,12 @@
     "nombre": "Tapioca",
     "base": "Cereales",
     "porciones": 1,
+    "macros": {
+      "proteina": "8g",
+      "carbohidratos": "72g",
+      "grasas": "5g",
+      "calorias": "364"
+    },
     "ingredientes": [
       "90 gr de tapioca",
       "Sal a gusto",
@@ -433,6 +547,12 @@
     "nombre": "Pan de avena y semillas",
     "base": "Cereales",
     "porciones": 4,
+    "macros": {
+      "proteina": "28g",
+      "carbohidratos": "52g",
+      "grasas": "24g",
+      "calorias": "536"
+    },
     "ingredientes": [
       "80 gr de harina de avena",
       "1 huevo + 3 claras",
@@ -455,6 +575,12 @@
     "nombre": "Granola express",
     "base": "Cereales",
     "porciones": 4,
+    "macros": {
+      "proteina": "24g",
+      "carbohidratos": "120g",
+      "grasas": "36g",
+      "calorias": "892"
+    },
     "ingredientes": [
       "250 gr de avena en hojuelas",
       "Frutos secos al gusto",
@@ -477,6 +603,12 @@
     "nombre": "Porridge de avena",
     "base": "Cereales",
     "porciones": 1,
+    "macros": {
+      "proteina": "10g",
+      "carbohidratos": "58g",
+      "grasas": "8g",
+      "calorias": "344"
+    },
     "ingredientes": [
       "80 gr de avena en hojuelas",
       "200 ml de leche de almendras (puede ser agua)",
@@ -497,6 +629,12 @@
     "nombre": "Mermelada de arándanos",
     "base": "Frutas",
     "porciones": 4,
+    "macros": {
+      "proteina": "4g",
+      "carbohidratos": "88g",
+      "grasas": "2g",
+      "calorias": "376"
+    },
     "ingredientes": [
       "400 gr de arándanos",
       "2 cdas de miel",
@@ -517,6 +655,12 @@
     "nombre": "Pudín de chía de chocolate",
     "base": "Lácteos",
     "porciones": 2,
+    "macros": {
+      "proteina": "12g",
+      "carbohidratos": "28g",
+      "grasas": "16g",
+      "calorias": "296"
+    },
     "ingredientes": [
       "6 cdas de semillas de chía",
       "2 cdas de cacao en polvo",
@@ -537,6 +681,12 @@
     "nombre": "Galletitas de avena y banana",
     "base": "Cereales",
     "porciones": 12,
+    "macros": {
+      "proteina": "18g",
+      "carbohidratos": "96g",
+      "grasas": "20g",
+      "calorias": "624"
+    },
     "ingredientes": [
       "2 bananas grandes",
       "1 taza de avena",
