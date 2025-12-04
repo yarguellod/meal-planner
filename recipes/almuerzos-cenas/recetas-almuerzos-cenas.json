@@ -1,0 +1,454 @@
+[
+  {
+    "id": "a1",
+    "nombre": "Bowl mexicano",
+    "base": "Carne molida al guiso",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de la carne molida al guiso",
+      "1 taza de quínoa cocida o arroz integral cocido",
+      "2 tomates picaditos",
+      "½ cebolla picadita",
+      "½ palta picado en cubos",
+      "2 puños de lechuga fresca",
+      "1 cda de cilantro picadito",
+      "2 cdas aceite de oliva",
+      "Jugo fresco de limón",
+      "Salsa picante tipo jalapeño (opcional)"
+    ],
+    "preparacion": "Cocina la quínoa o arroz según las instrucciones del empaque y reserva. Pica los tomate, cebolla, perejil y palta en pequeños cubos. Para emplatar, toma un bowl: coloca de fondo la lechuga, luego la quínoa o arroz cocido y encima carne al guiso, cebolla, tomate, palta, cilantro y finaliza con aceite de oliva y jugo de limón.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "carne"]
+  },
+  {
+    "id": "a2",
+    "nombre": "Pasta zucchini mediterránea",
+    "base": "Carne molida al guiso",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de carne molida al guiso",
+      "4-5 tazas de pasta zucchini (espiralizador de verduras)",
+      "2 cdas queso parmesano",
+      "1 cda de aceitunas picaditas",
+      "1 ½ taza de hongos rebanados",
+      "2 cdas aceite de oliva",
+      "1 cda de perejil picadito",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "En una sartén con aceite de oliva frita las aceitunas y los hongos rebanados. Salpimienta. Incorpora la carne molida al guiso y cocina unos minutos más para unificar sabores. Agrega la pasta zucchini al sartén y revuelve (solo un par de minutos). Sirve, decora con queso parmesano y perejil picadito.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "carne", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a3",
+    "nombre": "Wraps trending",
+    "base": "Carne molida al guiso",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de carne molida al guiso",
+      "Un par de hojas de lechuga grandes",
+      "1 taza de choclo desgranado",
+      "½ morrón picadito en julianas",
+      "1 taza de repollo picado en julianas",
+      "Aderezo: 3 cdas yogurt griego, 2 cdas leche de almendras, 1 cda mostaza orgánica, sal, pimienta y romero"
+    ],
+    "preparacion": "Lavar muy bien las hojas de lechuga (usar las más grandes y enteras). Lava y pica el resto de las verduras (morrón y repollo en julianas). Para el montaje: toma una hoja de lechuga, rellena con verduras, carne molida, choclo desgranado y aderezo. Repite con el resto de los ingredientes.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "carne", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a4",
+    "nombre": "Lasaña de zucchini y carne molida",
+    "base": "Carne molida al guiso",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de carne molida al guiso",
+      "3 cdas de queso mozzarella rallado",
+      "2-4 zucchini (dependiendo del tamaño)",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Corta el zucchini en láminas de 3 milímetros de grosor. En una sartén caliente engrasada con aceite de oliva sella por ambos lados cada lámina de zucchini y reserva. Para el montaje toma un molde apto para horno con altura. Arma la lasaña colocando capas de carne molida y capas de zucchini alternadas hasta finalizar. Termina con queso mozzarella rallado y hornea hasta gratinar (aproximadamente 15 minutos a 180°C).",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "carne", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a5",
+    "nombre": "Canastitas de arroz rellenas con carne molida y verduras salteadas",
+    "base": "Carne molida al guiso",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de carne molida al guiso",
+      "1 huevo",
+      "1 taza de arroz integral cocido",
+      "1 cda de harina de avena o arroz",
+      "¼ de morrón picado en pequeños cubitos",
+      "1 cda de perejil picadito finamente",
+      "½ zanahoria rallada finamente",
+      "1 taza de brócoli picado en pequeños cubitos",
+      "2 cdas de aceite de oliva",
+      "Jugo fresco de limón",
+      "2 cdas de vinagre balsámico",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "Para las cesticas de arroz: en un bowl mezcla arroz cocido, huevo batido, harina de avena, sal y pimienta. Amasa bien y deja reposar. Con moldes para cupcake arma las canastas (no muy gruesas). Hornea a 180° durante 15 minutos aprox hasta tostaditas. Para las verduras salteadas: pica todas las verduras. Lleva a un bowl e incorpora aceite de oliva, jugo de limón, vinagre balsámico, sal y pimienta. Mezclar bien. Para emplatar: toma una cestita de arroz, agrega carne molida y finaliza con verduras salteadas.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "carne"]
+  },
+  {
+    "id": "a6",
+    "nombre": "Molde 3 Capas (carne, brócoli y puré de papas)",
+    "base": "Carne molida al guiso",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de carne molida al guiso",
+      "3 cdas de queso mozzarella rallado",
+      "2-3 papas pequeñas (230 g cocida)",
+      "½ taza de leche de almendras",
+      "1 taza de brócoli picado en pequeños cubitos",
+      "1 cda manteca ghee o aceite de oliva",
+      "Una pizca de nuez moscada (opcional)",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "Precalienta el horno en opción gratinador. Cocina las papas en agua con sal hasta ablandar. Escurre y tritura con tenedor. Aún calientes agrega leche de almendras, manteca ghee, sal, pimienta y nuez moscada. Mezclar. Para el montaje, en un molde apto para horno con altura, coloca de fondo carne molida al guiso, luego brócoli picadito, seguidamente puré de papas y finaliza con mozzarella rallado. Lleva al horno hasta gratinar, aprox 10 min. Deja enfriar un poco antes de servir.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "carne"]
+  },
+  {
+    "id": "a7",
+    "nombre": "Túnel de banana relleno de pollo",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "1 banana madura",
+      "340 g de pollo desmechado",
+      "3 cdas de queso mozzarella rallado",
+      "1 taza de brócoli picado finamente",
+      "Aceite de oliva",
+      "Papel encerado"
+    ],
+    "preparacion": "Toma el banana: elimina su cáscara, hazle un corte longitudinal, pínchalo, rocíale aceite de oliva y cocina en horno o air fryer durante 15-20 min a 160°C. Retira y déjalo refrescar. Coloca el banana sobre papel encerado y aún caliente pasa un rodillo de cocina o vaso para aplanarlo uniformemente. Coloca en el centro del banana de extremo a extremo el pollo desmechado, brócoli y queso mozzarella. Con ayuda del papel encerado cierra y enrolla formando el túnel. Lleva nuevamente a hornear hasta dorar.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo"]
+  },
+  {
+    "id": "a8",
+    "nombre": "Pastel de pollo a la sartén",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de pollo desmechado",
+      "2 huevos",
+      "¼ taza de leche de almendras o coco",
+      "2 cdas de queso mozzarella rallado",
+      "1 cda queso parmesano",
+      "1 taza de zucchini picado en pequeños cubitos",
+      "1 taza de hongos picados en pequeños cubitos",
+      "1 cda de perejil picadito",
+      "1 cdta de polvo para hornear",
+      "Sal, pimienta y paprika al gusto",
+      "½ cda de alcaparras picaditas (opcional)",
+      "1 cda aceite de oliva",
+      "1 cda de sésamo para decorar"
+    ],
+    "preparacion": "En un bowl agrega huevos, leche de almendras, queso mozzarella y queso parmesano. Batir. Incorpora hongos picaditos, zucchini picadito, perejil, pollo desmechado, alcaparras, polvo para hornear, sal, pimienta y paprika. Revuelve bien hasta obtener una masa compacta. Precalienta una sartén engrasada con aceite de oliva y serví la preparación, agrega sésamo por encima y cocina tapado por 8-10 minutos. Voltear y cocinar un par de minutos más hasta dorar.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo"]
+  },
+  {
+    "id": "a9",
+    "nombre": "Ensalada ranch de pollo",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de pollo desmechado",
+      "1 ½ taza de repollo picado finamente",
+      "2 puños de hojas frescas de lechuga",
+      "2 puños de hojas frescas de kale o rúcula",
+      "1 taza de tomates cherry picados a la mitad",
+      "½ taza de choclo desgranado",
+      "1 ½ taza de coliflor o brócoli picado en ramitos",
+      "Aderezo ranch: 6 cdas yogurt griego, 3 cdas leche de almendras, 2 cdas aceite de oliva, 1 cdta cebolla en polvo, ½ cdta ajo en polvo, 1 cda salsa de soja, eneldo, sal y pimienta",
+      "Aceitunas picaditas (opcional)"
+    ],
+    "preparacion": "Lava y pica las verduras según las indicaciones. Para el montaje toma un bowl de fondo coloca lechuga y kale, luego repollo, zanahoria, brócoli, tomates cherry y por último pollo desmechado. Sirve y baña con aderezo ranch. Para el aderezo: vierte todos los ingredientes en un bowl y mezcla hasta integrar. Ajustar textura con agua o leche si es necesario. Rectificar sabores. Guarda en envase hermético en heladera.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo", "ensalada"]
+  },
+  {
+    "id": "a10",
+    "nombre": "Sándwich de berenjena con pollo",
+    "base": "Pollo desmechado",
+    "porciones": 1,
+    "ingredientes": [
+      "170 g de pechuga de pollo desmechada",
+      "1 berenjena mediana (o zucchini)",
+      "1 puñado rúcula, kale o lechuga",
+      "1 tomate picado en finas fetas",
+      "¼ pepino picado en finas fetas",
+      "1 cda aceite de oliva",
+      "Sal y pimienta al gusto",
+      "Aderezo: 2 cdas yogurt griego, 1 cda mostaza orgánica, aceitunas picaditas (opcional), orégano, jugo de limón, sal y pimienta"
+    ],
+    "preparacion": "Cortar la berenjena en láminas de 3 milímetros de grosor. Salpimienta. En una sartén caliente engrasada con aceite de oliva cocina por ambos lados cada lámina de berenjena hasta que estén suaves y doraditas. Usando las berenjenas a manera de 'pan' rellena con pollo desmechado, verduras y aderezo. Para el aderezo: vierte todos los ingredientes en un bowl y mezcla. Ajustar textura con agua o leche. Rectificar sabores. Guarda en envase hermético en heladera.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a11",
+    "nombre": "Desgranado cremoso de pollo",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de pollo desmechado",
+      "1 taza de choclo desgranado",
+      "2 cdas de queso cottage",
+      "3 cdas de yogurt griego",
+      "1 taza de brócoli o coliflor picado finamente",
+      "2 cdas de queso mozzarella",
+      "½ taza de leche de almendras o coco",
+      "2 cdas de queso mozzarella rallado",
+      "1 cda de cilantro picadito",
+      "Sal, pimienta y orégano al gusto"
+    ],
+    "preparacion": "En un bowl agrega pollo desmechado, choclo desgranado, queso cottage, yogurt griego, leche de almendras, brócoli o coliflor, sal, pimienta y orégano. Mezclar bien hasta integrar todos los ingredientes. Serví en un molde apto para horno y cubre con queso mozzarella rallado. Lleva a hornear hasta gratinar (aproximadamente 15 minutos a 180°C). Sirve y decora con cilantro picadito.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo"]
+  },
+  {
+    "id": "a12",
+    "nombre": "Milanesa de pollo sobre banana frita con aderezo ranch",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "1 banana (ni verde, ni madura)",
+      "340 g de pollo desmechado",
+      "½ taza de repollo picado finamente",
+      "½ taza de zanahoria rallada",
+      "Aderezo ranch: 6 cdas yogurt griego, 3 cdas leche de almendras, 2 cdas aceite de oliva, 1 cdta cebolla en polvo, ½ cdta ajo en polvo, 1 cda salsa de soja, eneldo, sal y pimienta",
+      "1 cda aceite de oliva"
+    ],
+    "preparacion": "Toma la banana: elimina cáscara, pícalo en dos partes iguales, pínchalo, rocíale aceite de oliva y cocina en horno o air fryer durante 20 min a 160°C. Retira y déjalo refrescar. Coloca la banana sobre papel encerado y aún caliente pasa un rodillo de cocina o vaso para aplanarla uniformemente. Llévalo nuevamente a hornear hasta conseguir textura crujiente y doradita. Retira y deja refrescar. Para emplatar: coloca de base la tostada de banana, luego repollo, zanahoria, pollo desmechado y finaliza con aderezo ranch. Para el aderezo: vierte todos los ingredientes en un bowl y mezcla. Ajustar textura con agua o leche. Rectificar sabores.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo"]
+  },
+  {
+    "id": "a13",
+    "nombre": "Croquetas de salmón y quínoa",
+    "base": "Salmón",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de salmón a la plancha",
+      "1 huevo",
+      "1 taza de quínoa cocida",
+      "1-2 cdas de harina de avena o arroz",
+      "¼ de taza de cebollín picado finamente",
+      "1 cda de perejil picadito",
+      "¼ de taza de morrón rojo picadito",
+      "La ralladura y jugo de 1 limón",
+      "Sal y pimienta al gusto",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Desmenuza el salmón cocido. En un bowl mezcla quínoa cocida, huevo batido, cebollín, perejil, morrón, ralladura de limón, un poco de jugo de limón, sal y pimienta. Mezclar bien. Agrega el salmón desmenuzado y la harina de avena, amasa hasta que todos los ingredientes estén bien integrados. Rectifica sabores. De ser necesario agrega un poco más de harina para conseguir una masa más firme. Arma las croquetas según el tamaño y grosor. Precalienta una sartén engrasada con aceite de oliva y cocina por ambos lados hasta dorar. También pudieras hacerlo en el air fryer.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pescado"]
+  },
+  {
+    "id": "a14",
+    "nombre": "Arroz de coliflor con salmón",
+    "base": "Salmón",
+    "porciones": 2,
+    "ingredientes": [
+      "285 g de salmón a la plancha",
+      "2 huevos",
+      "2 ½ tazas de arroz de coliflor",
+      "2 puños de espinacas frescas",
+      "½ cebolla",
+      "½ morrón",
+      "3 dientes de ajo triturados",
+      "Sal y pimienta al gusto",
+      "Jugo de 1 limón",
+      "Paprika y cúrcuma al gusto",
+      "2 cdas aceite de oliva",
+      "2 cdas de salsa de soja",
+      "1 cda de semillas de sésamo para decorar"
+    ],
+    "preparacion": "Toma el filete de salmón preparado y desmenúzalo. Calienta una sartén con aceite de oliva y frita un par de minutos el ajo, la cebolla picadita y el morrón picado en pequeños cubos. Agrega los huevos previamente batidos hasta cocinar. Con ayuda de la paleta de cocina desborona los huevos. Incorpora el arroz de coliflor, el salmón desmenuzado y las espinacas frescas picadas finamente. Mezclar todos hasta integrar. Salpimienta, agrega la salsa de soja, paprika y comino. Tapa y cocina un par de minutos. Cuando la coliflor tenga la consistencia deseada, rocía jugo fresco de limón y decora con las semillas de sésamo.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pescado", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a15",
+    "nombre": "Wok especial de salmón",
+    "base": "Salmón",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de salmón a la plancha",
+      "1 taza de arroz integral cocido (o quínoa)",
+      "1 taza de repollo picado finamente",
+      "1 taza de zanahoria picada en julianas",
+      "½ taza de morrón picado en julianas",
+      "2 cdas de cebollín picadito",
+      "1 ½ taza brócoli en ramitos",
+      "Jugo de 1 limón",
+      "2 cdas de salsa de soja",
+      "1 cda aceite de oliva",
+      "Sal y pimienta al gusto",
+      "Canela molida al gusto",
+      "Jengibre fresco rallado (opcional)",
+      "1 cda de aceite de sésamo"
+    ],
+    "preparacion": "Cocina el arroz de manera habitual (según instrucciones del empaque), al momento de cocinarlo podes agregarle un poco de jengibre rallado para saborizarlo. Importante: necesitamos tener el arroz listo con anticipación (que esté frío al momento de preparar el wok), podes hacerlo varias horas antes o desde la noche anterior. Toma el filete de salmón, desmenúzalo y reserva. En una sartén amplia agrega el aceite de oliva y frita todas las verduras: repollo, zanahoria, morrón y ramitos de brócoli. Agrega un chorrito de agua para facilitar la cocción. Salpimienta. En la sartén de las verduras incorpora el arroz cocido, el salmón desmenuzado, salsa de soja y un toque de canela molida. Mezclar bien hasta integrar. Rectifica sabores. Tapa y cocina un par de minutos. Sirve, agrega jugo fresco de limón, aceite de sésamo, decora con el cebollín picadito.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pescado"]
+  },
+  {
+    "id": "a16",
+    "nombre": "Croquetas dulces de salmón con crema de palta",
+    "base": "Salmón",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de salmón a la plancha",
+      "170 g de batata horneada",
+      "2-3 cdas harina de avena o arroz",
+      "2 puños de espinacas picadas finamente",
+      "2 dientes de ajo triturados",
+      "½ morrón rojo picadito",
+      "¼ de cebolla picadita",
+      "1 cda de perejil picadito",
+      "Sal y pimienta al gusto",
+      "2 cdas aceite de oliva",
+      "Crema de palta: ½ palta madura, 2 dientes de ajo, ¼ taza de cilantro o perejil picadito, ¼ taza de yogurt griego, 2 cdas jugo de limón, 1 cda aceite de oliva, sal y pimienta, chorrito de leche de almendras"
+    ],
+    "preparacion": "Desmenuza el salmón. En una sartén con aceite de oliva frita el ajo, cebolla, espinaca y morrón picaditos finamente. Salpimienta. Agrega la batata (previamente hecha puré triturándola con un tenedor), el perejil picadito y mezcla; retira del fuego. Agrega la harina y mezcla bien. Salpimenta. Mezclar hasta que la masa esté homogénea y luego arma las croquetas según el tamaño, forma y grosor. Agrega un poco más de harina si es necesario. Cocina en la plancha, al horno o air fryer hasta dorar por ambos lados. Sirve y acompaña con la crema de palta. Para la crema: en una licuadora incorpora todos los ingredientes hasta conseguir una mezcla compacta y sin grumos. Añade un chorrito de agua o leche hasta conseguir la consistencia deseada. Rectifica sabores.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pescado"]
+  },
+  {
+    "id": "a17",
+    "nombre": "Enrollado de salmón con crema de palta",
+    "base": "Salmón",
+    "porciones": 2,
+    "ingredientes": [
+      "4 huevos completos",
+      "230 g de salmón a la plancha",
+      "1 zucchini grande",
+      "2 puños de espinacas frescas",
+      "Sal y pimienta al gusto",
+      "1 cda aceite de oliva",
+      "Crema de palta: ½ palta madura, 2 dientes de ajo, ¼ taza de cilantro o perejil picadito, ¼ taza de yogurt griego, 2 cdas jugo de limón, 1 cda aceite de oliva, sal y pimienta, chorrito de leche de almendras"
+    ],
+    "preparacion": "Toma el filete de salmón preparado y desmenúzalo. Con la ayuda de una mandolina corta el zucchini en finas fetas. En una sartén engrasada con aceite de oliva sella las fetas de zucchini un par de segundos por cada lado. En un bowl batir los huevos y salpimienta. En la misma sartén con un poco más aceite de oliva coloca al fondo las fetas de zucchini y luego los huevos, tapa y cocina hasta cuajar; voltea y cocina por el otro lado. Retira de la sartén y reserva. Coloca la tortilla de zucchini en un plato, agréga un par de cucharadas de la crema de palta, el salmón desmenuzado y las espinacas frescas picaditas. Enrolla y pica por la mitad. Para la crema: en una licuadora incorpora todos los ingredientes hasta conseguir una mezcla compacta. Añade agua o leche hasta conseguir la consistencia deseada. Rectifica sabores.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pescado", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a18",
+    "nombre": "Canelones de berenjena rellenos con pollo molido",
+    "base": "Pollo molido",
+    "porciones": 2,
+    "ingredientes": [
+      "285 g de pollo molido al guiso",
+      "4 cdas de queso cottage",
+      "1 puño de espinacas frescas",
+      "2 cdas queso mozzarella",
+      "2 berenjenas",
+      "Sal y pimienta al gusto",
+      "Palillos para el montaje",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Precalienta el horno a 180°C. Lava bien las berenjenas, córtale los extremos y con mandolina o cuchillo afilado pícala en láminas delgadas. En una sartén caliente engrasada con aceite de oliva, cocina por ambos lados cada lámina de berenjena hasta que estén suaves y doraditas. Salpimienta y reserva. En un bowl mezcla el queso cottage con las espinacas picadas finamente. Salpimienta y reserva. Para el montaje: toma una lámina de berenjena asada, por la parte más ancha coloca una porción del pollo al guiso y de la crema de cottage con espinacas. Enrolla hasta el final y cierra con un palillo. Repite hasta terminar con el relleno. Coloca todos los canelones en un molde apto para el horno. Espolvorea con queso mozzarella y hornea hasta gratinar.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a19",
+    "nombre": "Bandejón de arroz, pollo y verduras",
+    "base": "Pollo molido",
+    "porciones": 2,
+    "ingredientes": [
+      "285 g de pollo molido al guiso",
+      "2 huevos",
+      "2 cdas de queso parmesano",
+      "1 taza de arroz integral cocido",
+      "½ taza de leche de almendras o coco",
+      "1 taza de brócoli o coliflor picado en pequeños cubitos",
+      "½ taza de zanahoria rallada",
+      "½ taza de zucchini picado en pequeños cubitos",
+      "¼ taza de morrón picadito",
+      "¼ taza de cebolla picadita",
+      "Sal, pimienta y romero al gusto"
+    ],
+    "preparacion": "En un bowl mezcla huevos batidos, la leche, sal, pimienta y romero. Incorpora pollo molido, arroz cocido y todas las verduras previamente picaditas según las indicaciones. Mezclar todo muy bien y rectifica sabores. De ser necesario agrega un poco más de sal o pimienta. Serví la preparación en un molde apto para horno, coloca el queso parmesano y hornea por aproximadamente 20-25 minutos a 160°C o hasta gratinar.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo"]
+  },
+  {
+    "id": "a20",
+    "nombre": "Bowl de batata y pollo",
+    "base": "Pollo molido",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de pollo molido al guiso",
+      "230 g de batata horneada picada en cubos pequeños",
+      "2 tomates",
+      "½ morrón picadito",
+      "½ cebolla picadito",
+      "2 cdas de perejil picadito",
+      "2 cdas de apio picadito",
+      "2 puños de kale o lechuga",
+      "2 cdas aceite de oliva",
+      "3 cdas de yogurt griego",
+      "Jugo fresco de 1 limón",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "Pica la batata en pequeños cubos, rocíales un poco aceite de oliva y hornea a 160°C hasta que estén suaves. Pica todas las verduras igualmente en pequeños cubitos y reserva. Para emplatar: coloca de base las hojas verdes, luego los cubos de batata horneados, seguí con el pollo molido y finaliza con las verduras picados. Para el aderezo: en un bowl agrega el yogurt griego, jugo fresco de limón, sal, pimienta y un chorrito de agua para suavizar. Mezclar bien, debes conseguir un aderezo bien fluido. Vierte el aderezo sobre el plato y sirve.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo"]
+  },
+  {
+    "id": "a21",
+    "nombre": "Lasaña de berenjena y pollo molido",
+    "base": "Pollo molido",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de pollo molido al guiso",
+      "3 cdas de queso mozzarella rallado",
+      "2-3 berenjenas (dependiendo del tamaño)",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Lava bien las berenjenas, córtale los extremos y con mandolina o cuchillo afilado pícala en láminas delgadas. En una sartén caliente engrasada con aceite de oliva cocina por ambos lados un par de segundos. Salpimienta y reserva. Para el montaje toma un molde con un poco de altura y comienza a organizar tu lasaña colocando capas de pollo molido y capas de berenjena alternadas hasta finalizar con los ingredientes. Termina con queso mozzarella rallado y hornea hasta gratinar.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo", "bajo-carbohidrato"]
+  },
+  {
+    "id": "a22",
+    "nombre": "Croquetas de banana rellenas de pollo molido",
+    "base": "Pollo molido",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de pollo molido al guiso",
+      "1 banana madura",
+      "2 cdas de harina de avena",
+      "1 cda de aceite de oliva",
+      "Sal"
+    ],
+    "preparacion": "Corta en trozos el banana y cocina en una ollita con agua. Cocina aproximadamente unos 12 minutos o hasta que esté suave. Cuela (déjalo escurrir unos minutos para retirar la mayor cantidad de agua posible) y llévalo a un bowl. Tritúralo con un tenedor, agregar la harina de avena, aceite de oliva y un toque de sal. De ser necesario agrega un poco más de harina para dar mayor consistencia a la masa. Hacé bolitas con la masa de banana, hunde un poco en el centro y rellena con el pollo molido. Cierra con ayuda de la misma masa, dándole forma de croquetas un poco ovaladas y aplanadas. Repite el procedimiento con el resto de los ingredientes. Lleva al air fryer hasta dorar por ambos lados.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo"]
+  },
+  {
+    "id": "a23",
+    "nombre": "Canoas de zucchini rellenas de pollo molido",
+    "base": "Pollo molido",
+    "porciones": 2,
+    "ingredientes": [
+      "340 g de pollo molido al guiso",
+      "2 zucchini medianos",
+      "2 cdas de queso parmesano",
+      "Aceitunas y/o alcaparras picaditas (opcional)"
+    ],
+    "preparacion": "Lava el zucchini, elimina el tallo y córtalo por la mitad a lo largo. Usando una cuchara, saca el interior del zucchini. Esto lo podes desechar o guardarlo para luego usarlo en sopas o cremas. Coloca las canoas de zucchini en una bandeja para hornear y rellena cada una con el pollo molido. Reparte uniformemente y finaliza con un poco de queso parmesano. Opcional coloca unas aceitunas y/o alcaparras picaditas al guiso de pollo. Hornea por unos 15 minutos a 180°C o hasta gratinar.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["almuerzo", "cena", "pollo", "bajo-carbohidrato"]
+  }
+]

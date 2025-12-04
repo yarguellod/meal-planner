@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Comidas Semanal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍽️ Planificador de Comidas Semanal</h1>
+            <p class="subtitle">Meal Prep para 2 personas • Ahorra tiempo y dinero</p>
+        </header>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="planificador">📅 Planificar Semana</button>
+            <button class="tab-button" data-tab="recetas">📖 Ver Recetas</button>
+            <button class="tab-button" data-tab="lista-compras">🛒 Lista de Compras</button>
+            <button class="tab-button" data-tab="semanas-guardadas">💾 Semanas Guardadas</button>
+        </div>
+
+        <!-- Tab: Planificador -->
+        <div id="planificador" class="tab-content active">
+            <div class="week-planner">
+                <div class="week-header">
+                    <h2>Planifica tu semana</h2>
+                    <div class="week-actions">
+                        <button id="guardarSemana" class="btn btn-primary">💾 Guardar Semana</button>
+                        <button id="limpiarSemana" class="btn btn-secondary">🗑️ Limpiar Todo</button>
+                    </div>
+                </div>
+
+                <div class="days-grid">
+                    <!-- Los días se generarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: Recetas -->
+        <div id="recetas" class="tab-content">
+            <div class="recipes-container">
+                <div class="recipes-filters">
+                    <h2>Explorar Recetas</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Todas</button>
+                        <button class="filter-btn" data-filter="desayuno">Desayunos</button>
+                        <button class="filter-btn" data-filter="almuerzo">Almuerzos</button>
+                        <button class="filter-btn" data-filter="cena">Cenas</button>
+                        <button class="filter-btn" data-filter="vegetariano">Vegetarianas</button>
+                        <button class="filter-btn" data-filter="bajo-carbohidrato">Bajo en Carbos</button>
+                    </div>
+                    <input type="text" id="buscarReceta" placeholder="🔍 Buscar receta..." class="search-input">
+                </div>
+                <div id="recetasGrid" class="recipes-grid">
+                    <!-- Las recetas se cargarán aquí -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: Lista de Compras -->
+        <div id="lista-compras" class="tab-content">
+            <div class="shopping-list-container">
+                <div class="shopping-header">
+                    <h2>📝 Lista de Compras</h2>
+                    <button id="imprimirLista" class="btn btn-primary">🖨️ Imprimir</button>
+                </div>
+                <div id="listaComprasContent">
+                    <p class="empty-state">Agrega recetas a tu planificador para generar la lista de compras</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: Semanas Guardadas -->
+        <div id="semanas-guardadas" class="tab-content">
+            <div class="saved-weeks-container">
+                <h2>📚 Tus Semanas Guardadas</h2>
+                <div id="semanasGuardadasList">
+                    <p class="empty-state">No hay semanas guardadas todavía</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para detalles de receta -->
+    <div id="recetaModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="recetaDetalles"></div>
+        </div>
+    </div>
+
+    <!-- Modal para seleccionar receta -->
+    <div id="seleccionarRecetaModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="seleccionarRecetaContent"></div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

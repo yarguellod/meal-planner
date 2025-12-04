@@ -1,0 +1,333 @@
+[
+  {
+    "id": "d1",
+    "nombre": "Muffins de champiñones y espinaca",
+    "base": "Huevos",
+    "porciones": 2,
+    "ingredientes": [
+      "4 huevos completos + 4 claras",
+      "2 cdas queso mozzarella rallado",
+      "½ cebolla picada en pequeños cubitos",
+      "1 taza de champiñones rebanados",
+      "2 puños de espinacas frescas picadas finamente",
+      "¼ taza de leche de almendras o coco",
+      "Sal y pimienta al gusto",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Para comenzar, pica las espinacas, champiñones y cebolla. En una sartén con aceite de oliva frita la cebolla por un par de minutos. Incorpora los champiñones y la espinaca. Salpimienta y cocina 3-4 minutos. Lleva a un colador y deja escurrir. En un bowl batir los huevos, las claras, el queso, la leche, sal y pimienta. Incorpora el frito de verduras. Engrasa los moldes para muffins y serví la mezcla. Hornea aproximadamente 25 minutos a 160-180°C.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["desayuno", "huevos", "vegetariano"]
+  },
+  {
+    "id": "d2",
+    "nombre": "Tortilla mixta (huevo, papa y verduras)",
+    "base": "Huevos",
+    "porciones": 2,
+    "ingredientes": [
+      "4 huevos + 4 claras",
+      "230 g de papa cocida",
+      "½ taza de zucchini picado en pequeños cubitos",
+      "¼ taza de morrón rojo picadito",
+      "1 cda de perejil picadito",
+      "½ cebolla picadita",
+      "Una pizca de sal y pimienta",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Cocina la papa (con cáscara). Una vez lista, enfría y retira la cáscara. Pica en cubos pequeños. En una sartén con aceite de oliva frita las verduras un par de minutos. En un bowl agrega los huevos batidos, las claras batidas, los cubos de papa cocida, las verduras fritas, sal y pimienta. Mezclar bien. Serví la mezcla en una sartén engrasada. Tapa y cocina hasta que luzca firme. Voltear y cocinar un par de minutos más hasta dorar.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["desayuno", "huevos", "vegetariano"]
+  },
+  {
+    "id": "d3",
+    "nombre": "Tostada con crema de huevo y palta",
+    "base": "Huevos",
+    "porciones": 2,
+    "ingredientes": [
+      "4 huevos",
+      "4 cdas queso cottage",
+      "2 cdas de yogurt griego",
+      "½ de palta triturado",
+      "1-2 rebanadas por ración de pan integral",
+      "1 cdta de mostaza orgánica",
+      "1 cda de apio picadito",
+      "1 cda de cilantro picadito",
+      "1 cda de aceitunas picaditas (opcional)",
+      "Jugo de ½ limón",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "Cocina los huevos en agua con sal durante 10-12 minutos. Enfría y quita la cáscara. Pica los huevos en pequeños cubos. En un bowl mezcla los huevos, queso cottage, yogurt griego, puré de palta, mostaza, cilantro, apio, jugo de limón, sal y pimienta. Mezclar hasta conseguir una crema gruesa. Rectifica sabores. Coloca sobre pan tostado.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["desayuno", "huevos", "vegetariano"]
+  },
+  {
+    "id": "d4",
+    "nombre": "Magdalenas de zanahoria y queso",
+    "base": "Huevos",
+    "porciones": 2,
+    "ingredientes": [
+      "3 huevos + 4 claras",
+      "2 cdas de yogurt griego",
+      "4 cdas de queso mozzarella rallado",
+      "1 zanahoria rallada finamente",
+      "5-6 cdas de harina de avena o arroz",
+      "1 cdta de polvo para hornear",
+      "¼ taza de leche de almendras",
+      "Sal al gusto",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "En un bowl batir los huevos, las claras, el yogurt y la leche. Incorpora el queso rallado, la zanahoria rallada, la harina, polvo para hornear y sal. Batir bien. Engrasa los moldes para muffins y serví la mezcla. Hornea aproximadamente 25-30 minutos a 160-180°C.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["desayuno", "huevos", "vegetariano"]
+  },
+  {
+    "id": "d5",
+    "nombre": "Croquetas campesinas (arroz, choclo y panceta)",
+    "base": "Huevos",
+    "porciones": 2,
+    "ingredientes": [
+      "4 huevos + 4 claras",
+      "½ taza de arroz integral cocido",
+      "½ taza de choclo desgranado",
+      "2 fetas de panceta",
+      "¼ taza de morrón picadito",
+      "¼ taza de zanahoria rallada finamente",
+      "¼ taza de puerro picadito",
+      "2 cdas aceite de oliva",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "En una sartén frita la panceta picada. Incorpora el morrón, zanahoria y puerro. Salpimienta y cocina. Escurre. En un bowl batir los huevos y claras. Incorpora las verduras fritas con panceta, arroz cocido, choclo, sal y pimienta. Mezclar bien. Precalienta una sartén con aceite de oliva, serví porciones de la mezcla. Cocina hasta dorar, voltea y cocina por el otro lado.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["desayuno", "huevos"]
+  },
+  {
+    "id": "d6",
+    "nombre": "Bandeja horneada de huevos y verduras",
+    "base": "Huevos",
+    "porciones": 2,
+    "ingredientes": [
+      "4 huevos + 4 claras",
+      "4 cdas de avena en hojuelas",
+      "1 cda queso parmesano",
+      "½ cebolla picadita",
+      "½ morrón picadito",
+      "½ taza de chauchas picaditas",
+      "½ zanahoria picadita",
+      "½ rama de puerro",
+      "¼ taza de leche de almendras o coco",
+      "Sal y pimienta al gusto",
+      "2 cdas aceite de oliva",
+      "Especias al gusto: romero, curry, cúrcuma, orégano"
+    ],
+    "preparacion": "Pica todas las verduras en pequeños cubitos. Precalienta una sartén con aceite de oliva y frita las verduras comenzando con las de mayor consistencia. Cocina hasta ablandar. Salpimienta. En un bowl agrega huevos, claras, leche, sal, pimienta y queso parmesano. Mezclar bien. Agrega las verduras fritas. Vierte la mezcla en un molde apto para horno. Lleva al horno a 160ºC durante 30-45 minutos o hasta que un cuchillo salga limpio.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["desayuno", "huevos", "vegetariano"]
+  },
+  {
+    "id": "d7",
+    "nombre": "Empanadas de batata rellenas con pollo",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "230 g del pollo desmechado",
+      "230 g de batata",
+      "2 cdas harina de avena o arroz",
+      "1 cda de semilla de lino molida",
+      "Pizca de sal",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Pincha la batata y cocina en air fryer o microondas hasta ablandar. Tritura con un tenedor. Lleva a un bowl y añade harina, linaza, 1 cda aceite de oliva y sal. Amasa bien hasta conseguir una masa uniforme. Extiende la masa de forma circular, rellena con pollo desmechado y cierra. Rocía con aceite de oliva y hornea en air fryer u horno hasta dorar (12-15 min a 180°C).",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["desayuno", "pollo"]
+  },
+  {
+    "id": "d8",
+    "nombre": "Burritos de pollo y verduras",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "1 taza de avena en hojuelas",
+      "1 taza de agua tibia",
+      "Sal al gusto",
+      "½ cda de sésamo",
+      "Especias (opcional)",
+      "2 cdas aceite de oliva",
+      "115 g pollo desmechado por ración",
+      "Verduras: lechuga, kale, tomate, hongos",
+      "Aderezo: 2 cdas yogurt griego, 1 cdta mostaza orgánica, sal, pimienta y especias"
+    ],
+    "preparacion": "En un bowl mezcla todos los ingredientes del burrito. Deja reposar 10 minutos. Precalienta una sartén con aceite y agrega una porción de la mezcla. Extiende uniformemente con una cuchara. Cocina hasta que no esté húmeda al tacto. Repite con el resto. Para emplatar, coloca el burrito y rellena con pollo, verduras y aderezo.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["desayuno", "pollo"]
+  },
+  {
+    "id": "d9",
+    "nombre": "Muffins cremosos de pollo y espinaca",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "115 g de pollo desmechado",
+      "2 cdas de queso cottage o ricota",
+      "¼ taza de leche de almendras",
+      "3 huevos",
+      "1 puño de espinacas picadas finamente",
+      "1 cda de cilantro picadito",
+      "½ cda de mostaza orgánica",
+      "Sal y pimienta al gusto",
+      "1 cdita de polvo para hornear",
+      "Un chorrito de jugo de limón",
+      "2 cdas aceite de oliva"
+    ],
+    "preparacion": "Separa claras de yemas. En un bowl mezcla yemas, mostaza, leche, sal y pimienta. Incorpora pollo, cilantro, espinacas, polvo para hornear y queso. En otro bowl batir claras a punto de nieve con limón. Con movimientos envolventes agrega las claras a la mezcla de pollo. Engrasa moldes de cupcake y serví la mezcla. Hornear a 180ºC por 20 minutos aprox.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["desayuno", "pollo"]
+  },
+  {
+    "id": "d10",
+    "nombre": "Tortitas de mandioca rellena con pollo desmechado",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "230 g de mandioca cocida",
+      "1 pizca de sal",
+      "1 cda aceite de oliva",
+      "115 g pollo desmechado por ración",
+      "Verduras: rúcula, zanahoria, lechuga, kale, tomate, morrón",
+      "¼ de palta por ración"
+    ],
+    "preparacion": "Limpia la mandioca y córtala en trozos pequeños. Cocina en agua con sal hasta que esté muy suave. Enfría y tritura hasta obtener un puré. Agrega aceite de oliva y sal. Amasa bien. Forma tortitas con las manos o usando papel de film. Cocina en sartén u horno hasta dorar por ambas caras. Abre y rellena con pollo, palta y verduras.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["desayuno", "pollo"]
+  },
+  {
+    "id": "d11",
+    "nombre": "Omelette relleno de pollo y champiñones",
+    "base": "Pollo desmechado",
+    "porciones": 2,
+    "ingredientes": [
+      "4 huevos",
+      "2 cdas de queso cottage o ricota",
+      "2-3 cdas de leche de almendras o coco",
+      "1 cdta de polvo para hornear",
+      "Sal y pimienta al gusto",
+      "1 cda aceite de oliva",
+      "115 g de pollo desmechado",
+      "1 taza de hongos rebanados",
+      "1 cda de cebollín picado finamente"
+    ],
+    "preparacion": "En un bowl batir huevos, queso cottage, leche, sal, pimienta y polvo para hornear. Mezclar bien hasta aumentar volumen. Precalienta una sartén antiadherente engrasada. Vierte la mezcla y esparce uniformemente (delgada). Cocina hasta que esté firme, voltea el omelette. Agrega pollo desmechado, hongos y cebollín. Dobla por la mitad y cocina unos segundos más.",
+    "conservacion": "3-5 días en heladera, 3 meses en freezer",
+    "categorias": ["desayuno", "pollo", "huevos"]
+  },
+  {
+    "id": "d12",
+    "nombre": "Bolitas de banana y atún",
+    "base": "Atún",
+    "porciones": 2,
+    "ingredientes": [
+      "230 g de atún al guiso",
+      "170 g de banana madura",
+      "3 cdas de harina de avena o arroz",
+      "1 cda de chía o linaza",
+      "1 puño de acelga picada finamente",
+      "Sal al gusto",
+      "1 cda aceite de oliva"
+    ],
+    "preparacion": "Cocina el banana hasta que esté suave. Retira y cuela. En una sartén con aceite de oliva agrega acelga picadita y cocina hasta marchitar. Enfría. En un bowl agrega banana y tritúralo, incorpora atún al guiso, chía, harina de avena y acelga cocida. Agrega sal y amasa bien. Lleva a heladera por 15-20 minutos. Retira y arma bolitas. Lleva a freidora de aire u horno por 15 minutos a 180°C.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["desayuno", "atun"]
+  },
+  {
+    "id": "d13",
+    "nombre": "Arepa de avena y zanahoria rellena con atún al guiso",
+    "base": "Atún",
+    "porciones": 2,
+    "ingredientes": [
+      "6 cdas de avena en hojuelas",
+      "2 cdas de chía",
+      "½ taza de zanahoria rallada finamente",
+      "Una pizca de sal",
+      "1 cda aceite de oliva",
+      "230 g de atún al guiso",
+      "½ palta"
+    ],
+    "preparacion": "En un bowl serví todos los ingredientes de la tortita, agrega un chorrito de agua y amasa. Agrega agua hasta conseguir textura compacta y manejable. Precalienta una plancha con aceite de oliva. Dale forma a tus tortitas según tamaño y grosor. Cocina por ambos lados hasta dorar. Rellena con atún al guiso y palta.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["desayuno", "atun"]
+  },
+  {
+    "id": "d14",
+    "nombre": "Pastel de batata con atún y verduras",
+    "base": "Atún",
+    "porciones": 2,
+    "ingredientes": [
+      "170 g de atún al guiso",
+      "230 g de batata",
+      "2 huevos",
+      "1 cda de cilantro picadito",
+      "1 cdita de polvo para hornear",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "Cocina la batata hasta que esté suave. Retira y cuela. Tritura con un tenedor hasta convertir en puré. En un bowl mezcla huevos batidos, atún al guiso, puré de batata, cilantro picadito, polvo para hornear, sal y pimienta. Mezclar bien. Vierte en un molde apto para hornear. Hornea 15-20 minutos a 160-180°C, hasta que esté firme y al introducir un palillo salga limpio.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["desayuno", "atun"]
+  },
+  {
+    "id": "d15",
+    "nombre": "Cupcakes de atún y verduras",
+    "base": "Atún",
+    "porciones": 2,
+    "ingredientes": [
+      "170 g de atún al guiso",
+      "2 huevos",
+      "5 cdas de harina de avena o arroz",
+      "¼ taza de leche de almendras",
+      "½ taza de hongos rebanados",
+      "½ taza de zucchini picado en cubitos",
+      "½ taza de acelga o espinaca picada finamente",
+      "2 cdas aceite de oliva",
+      "Orégano al gusto",
+      "Sal y pimienta al gusto"
+    ],
+    "preparacion": "Frita en una sartén con aceite de oliva todas las verduras hasta marchitar. Salpimienta. Déjalos escurrir en un colador. En un bowl agrega huevos batidos, leche y harina. Batir bien. Incorpora atún al guiso, verduras fritas, sal, pimienta y orégano. Revuelve bien. Vierte en moldes para cupcake y hornea aproximadamente 20-30 minutos a 160-180°C hasta que estén firmes.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["desayuno", "atun"]
+  },
+  {
+    "id": "d16",
+    "nombre": "Paté de atún",
+    "base": "Atún",
+    "porciones": 2,
+    "ingredientes": [
+      "230 g de atún al guiso",
+      "2 cdas de queso cottage",
+      "½ de palta",
+      "Jugo de limón",
+      "Perejil picadito (cantidad al gusto)",
+      "1 cda aceite de oliva",
+      "Sal y pimienta al gusto",
+      "1-2 rebanadas por ración de pan integral"
+    ],
+    "preparacion": "Agrega en la licuadora atún al guiso, palta, jugo de limón, queso cottage, perejil, sal, pimienta y aceite de oliva. Procesa hasta integrar todos los ingredientes sin grumos y compacto. Si deseas más fluido agrega un chorrito agua. Sirve y acompaña con rebanadas tostadas de pan integral.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["desayuno", "atun"]
+  },
+  {
+    "id": "d17",
+    "nombre": "Tartaleta de atún",
+    "base": "Atún",
+    "porciones": 2,
+    "ingredientes": [
+      "170 g de atún al guiso",
+      "2 huevos",
+      "2 cdas de mozzarella",
+      "3 cdas de harina de avena",
+      "3 cdas de avena en hojuelas",
+      "2 cdas de chía",
+      "Una pizca de sal",
+      "1 cda de aceite de coco o palta"
+    ],
+    "preparacion": "Precalienta el horno a 180ºC. Para la tartaleta: en un bowl serví harina de avena, avena en hojuelas, chía, sal, aceite de coco y un chorrito de agua. Amasa agregando agua hasta conseguir masa suave y manejable. Engrasa un molde y coloca la masa. Espárcela uniformemente. Pincha con tenedor y hornea 10-12 minutos. Para el relleno: batir huevos e incorpora atún al guiso. Cuando la base esté lista, serví el relleno y finaliza con mozzarella. Hornea 15 minutos aproximadamente hasta que esté firme y el queso gratinado.",
+    "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
+    "categorias": ["desayuno", "atun"]
+  }
+]
