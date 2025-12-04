@@ -1,0 +1,243 @@
+[
+  {
+    "id": "m1",
+    "nombre": "Bolitas de arroz",
+    "base": "Cereales",
+    "porciones": 2,
+    "ingredientes": [
+      "1 taza de arroz",
+      "2 tazas de agua",
+      "1 diente de ajo",
+      "1 hoja de laurel",
+      "1 cta. de manteca orgánica",
+      "Sal rosada"
+    ],
+    "preparacion": "Poner todos los ingredientes en una olla y llevar a ebullición. Cuando hierve bajar el fuego al mínimo (fuego corona ó difusor) y cocinar hasta que se evapore todo el agua. Retirar el diente de ajo y el laurel y dejar templar. Con las manos humedecidas ir formando bolitas. Si se quiere se pueden 'rebozar' con semillas de sésamo, almendra molida ó queso rallado. Con una jeringa grande de plástico se pueden rellenar con un corazón de calabaza, zanahoria ó palta.",
+    "conservacion": "3-4 días en heladera",
+    "categorias": ["merienda", "snack", "cereales", "vegetariano"]
+  },
+  {
+    "id": "m2",
+    "nombre": "Chia pudding",
+    "base": "Lácteos",
+    "porciones": 1,
+    "ingredientes": [
+      "1/2 taza de leche ó leche de semillas",
+      "2 cdas. de semillas de chía",
+      "2 ctas. de miel",
+      "1/2 taza de arándanos frescos, divididos",
+      "1 cda. almendras tostadas en trocitos, divididas"
+    ],
+    "preparacion": "Mezclar la leche, chía, miel y frutos rojos en un tazón pequeño. Cubrir y refrigerar por al menos 8 horas. Cuando esté listo para servir, revolver bien. Colocar la mitad en un vaso y cubrir con la mitad de los arándanos y las almendras. Agregar el resto de la mezcla y cubrir con los arándanos y las almendras restantes.",
+    "conservacion": "1-2 días en heladera",
+    "categorias": ["merienda", "snack", "lacteos", "vegetariano"]
+  },
+  {
+    "id": "m3",
+    "nombre": "Coquitos",
+    "base": "Huevo",
+    "porciones": 12,
+    "ingredientes": [
+      "100 grs. de coco rallado",
+      "80 grs. de azúcar mascabo",
+      "1 huevo grande",
+      "ralladura de 1 limón"
+    ],
+    "preparacion": "Batir el huevo. Añadir el azúcar y batir bien, deshaciendo los grumos. Añadir el coco y la ralladura y mezclar bien, hasta que el huevo impregne el resto de ingredientes. No queda una masa compacta, sino que se desmenuza. Ir agarrando pedacitos de masa, formar bolitas y colocar en una bandeja de horno. Cocinar unos 15 minutos a 180 grados.",
+    "conservacion": "5-7 días en recipiente hermético",
+    "categorias": ["merienda", "snack", "huevo", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m4",
+    "nombre": "Fruta cocinada (compota)",
+    "base": "Frutas",
+    "porciones": 4,
+    "ingredientes": [
+      "4 manzanas",
+      "2 peras",
+      "100 ml. de agua",
+      "1 ramita de canela",
+      "1 anis estrellado"
+    ],
+    "preparacion": "Pelar y rallar las frutas, evitando las semillas. Colocar las frutas junto con el agua y las especias en una olla de acero inoxidable. Cocinar a fuego muy lento por unos 20 minutos. Dejar templar y servir con cucharita. Se puede conservar en la heladera.",
+    "conservacion": "3-4 días en heladera",
+    "categorias": ["merienda", "snack", "frutas", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m5",
+    "nombre": "Almond cookie",
+    "base": "Frutos secos",
+    "porciones": 12,
+    "ingredientes": [
+      "2 huevos",
+      "Ralladura de ½ limón",
+      "150 gr. de azúcar orgánica",
+      "Almendra partida para decorar",
+      "250 gr. de almendra molida",
+      "Aceite de coco"
+    ],
+    "preparacion": "Precalentar el horno a 170º. Separar claras de los huevos y reservar yemas. Montar claras a punto de nieve con la sal y cuando están semimontadas echar el azúcar batiendo continuamente. Añadir la ralladura y la almendra picada. Mezclar suavemente hasta obtener una pasta homogénea. Formar bolitas con la masa y colocarlas separadas entre sí en una bandeja pincelada con aceite de coco. Aplastar y decorar con trocitos de almendra. Pincelar con yema de huevo y hornear por 15 m. ó hasta dorar.",
+    "conservacion": "5-7 días en recipiente hermético",
+    "categorias": ["merienda", "snack", "frutos secos", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m6",
+    "nombre": "Mango lassi",
+    "base": "Lácteos",
+    "porciones": 2,
+    "ingredientes": [
+      "2 mangos maduros",
+      "500 gr. de yogurt natural",
+      "100 gr. cubitos de hielo",
+      "1 cta. de miel",
+      "Semillas de cardamomo en polvo (opcional)"
+    ],
+    "preparacion": "Pelar los mangos, descartar el hueso y cortar toda la pulpa en trozos. Colocar la pulpa y jugo que haya quedado del mango en una licuadora ó vaso de mixer con el yogur, el hielo y el cardamomo (opcional). Licuar y listo!!!",
+    "conservacion": "Consumir inmediatamente",
+    "categorias": ["merienda", "snack", "lacteos", "frutas", "vegetariano"]
+  },
+  {
+    "id": "m7",
+    "nombre": "Mermelada viva",
+    "base": "Frutas",
+    "porciones": 2,
+    "ingredientes": [
+      "1 taza de cualquier fruta dulce/jugosa",
+      "2-3 cucharadas de chía",
+      "Unas gotas de jugo de limón"
+    ],
+    "preparacion": "Moler ¾ de la fruta con una cucharada de chía en una procesadora ó mixer. Picar el resto de la fruta, añadir a la mezcla anterior y poner las gotas de jugo de limón. Remover bien y dejar enfriar en la heladera entre media hora y una hora. Consumir durante el mismo día.",
+    "conservacion": "1 día en heladera",
+    "categorias": ["merienda", "snack", "frutas", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m8",
+    "nombre": "Natillas horneadas",
+    "base": "Lácteos",
+    "porciones": 4,
+    "ingredientes": [
+      "4 huevos orgánicos",
+      "3 cdas. de azúcar orgánica",
+      "1 taza de yogurt natural entero",
+      "½ cta. de extracto de vainilla",
+      "Ralladura de 1 limón orgánico",
+      "Frutos rojos al gusto"
+    ],
+    "preparacion": "Precalentar el horno a 200º. Mezclar los huevos, el azúcar, el yogurt, la vainilla y la cáscara de limón hasta que estén bien mezclados y espumosos como un licuado. Engrasar 4 flaneritas con un poco de manteca, ghee o aceite de coco. Dividir la mezcla entre los moldes y colocar en un baño de agua. Puedes usar una cacerola grande para horno (con tapa), y llenarla a aprox. ¾ de la altura de los moldes. Repartir los frutos rojos en los moldes. cubrir con la tapa y hornear por 30 minutos.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["merienda", "snack", "lacteos", "huevo", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m9",
+    "nombre": "Manteca de almendra",
+    "base": "Frutos secos",
+    "porciones": 8,
+    "ingredientes": [
+      "2 tazas de almendras",
+      "1 pizca de sal"
+    ],
+    "preparacion": "Precalentar el horno a 180º. Extender las almendras en una bandeja de horno y hornear por unos 8-10 minutos hasta que estén doradas, sin quemarse. Retirar y dejar enfriar. Procesar las almendras hasta que quede una manteca cremosa. El tiempo dependerá de la procesadora y dureza de la semilla, entre 5 y 10 minutos. Añadir la sal si se desea y volver a procesar varias veces para incorporarla.",
+    "conservacion": "2-3 semanas en heladera",
+    "categorias": ["merienda", "snack", "frutos secos", "vegetariano"]
+  },
+  {
+    "id": "m10",
+    "nombre": "Paleo muffin",
+    "base": "Frutos secos",
+    "porciones": 12,
+    "ingredientes": [
+      "4 huevos grandes",
+      "1/2 taza de leche ó leche vegetal",
+      "2 cdas. de azúcar orgánica",
+      "2 ctas. de extracto natural de vainilla",
+      "3 tazas de harina de almendras",
+      "2 ctas. de canela molida",
+      "1 cta. de bicarbonato de sodio",
+      "1 taza de chips de chocolate amargo"
+    ],
+    "preparacion": "Precalentar el horno a 200. Agregar todos los ingredientes excepto el chocolate a una licuadora. Mezclar hasta que esté bien combinado y cremoso. Mezclar los chips de chocolate en la masa hasta que estén bien combinadas y llenar los moldes de muffin hasta los ¾. Hornear de 18 a 20 minutos, retirar y dejar enfriar al menos 30 m. para evitar que se peguen.",
+    "conservacion": "5-7 días en recipiente hermético",
+    "categorias": ["merienda", "snack", "frutos secos", "huevo", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m11",
+    "nombre": "Trufas de chocolate",
+    "base": "Frutos secos",
+    "porciones": 12,
+    "ingredientes": [
+      "1 taza de dátiles",
+      "1/2 taza de nueces",
+      "1 cda. de miel",
+      "1 cda. de cacao amargo en polvo",
+      "ralladura de naranja",
+      "almendra en polvo"
+    ],
+    "preparacion": "Cortar los dátiles y las nueces en trocitos pequeños. Procesar todos los ingredientes hasta lograr una masa homogénea. Armar bolitas con las manos, rebozarlas con la almendra en poldo y guardarlas en la heladera hasta que tomen consistencia.",
+    "conservacion": "7-10 días en heladera",
+    "categorias": ["merienda", "snack", "frutos secos", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m12",
+    "nombre": "Papilla de banana",
+    "base": "Frutas",
+    "porciones": 1,
+    "ingredientes": [
+      "1 banana madura",
+      "Jugo de ½ limón",
+      "1 cucharada de miel"
+    ],
+    "preparacion": "Pisar la banana. Añadir el jugo de limón. Añadir la miel. Mezclar bien y servir. Se puede sumar coco rallado, canela, frutos rojos, copos de avena, levadura nutricional, etc…",
+    "conservacion": "Consumir inmediatamente",
+    "categorias": ["merienda", "snack", "frutas", "vegetariano", "dulce"]
+  },
+  {
+    "id": "m13",
+    "nombre": "Tortitas de banana",
+    "base": "Huevo",
+    "porciones": 6,
+    "ingredientes": [
+      "3 bananas maduras",
+      "1 cta. de canela",
+      "6 huevos orgánicos",
+      "aceite de coco ó ghee",
+      "1 taza de coco rallado",
+      "1/2 taza de arándanos frescos ó congelados"
+    ],
+    "preparacion": "Pelar las bananas y pisarlas con un tenedor. Batir los huevos en un bol y mezclarlos con las bananas. Añadir el coco rallado, los arándanos, la canela y mezclar hasta combinar. Calentar el aceite de coco en una sartén. Poner un poco de la mezcla y calentar a fuego medio por ambos lados. NOTA: Cuidado al manipular porque se suelen romper, es preferible hacerlas de tamaño pequeño.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": ["merienda", "snack", "huevo", "frutas", "vegetariano"]
+  },
+  {
+    "id": "m14",
+    "nombre": "Crema de avena",
+    "base": "Cereales",
+    "porciones": 1,
+    "ingredientes": [
+      "1 puñado de avena arrollada remojada",
+      "1 chorrito de leche ó leche vegetal",
+      "2 ciruelas deshidratadas ó un puñadito de pasas de uva",
+      "1 cta. de trocitos de almendras",
+      "endulzante (opcional)"
+    ],
+    "preparacion": "Remojar la avena la noche anterior. Colocar todos los ingredientes en un cacerola. Cocinar a fuego muy lento (ideal con difusor) y remover de vez en cuando con una cuchara de madera. Cuando tiene una consistencia cremosa está listo para servir. Se puede sustituir la avena arrollada por arroz, quinoa u otro cereal previamente cocido. Se pueden sustituir las pasas de uva por trocitos de dátil, damasco ó durazno desecados. Se puede añadir coco rallado, canela ó cacao y frutas frescas.",
+    "conservacion": "1-2 días en heladera",
+    "categorias": ["merienda", "snack", "cereales", "vegetariano"]
+  },
+  {
+    "id": "m15",
+    "nombre": "Verduras crudas con dip",
+    "base": "Verduras",
+    "porciones": 2,
+    "ingredientes": [
+      "Palitos de zanahoria",
+      "Tomates cherry",
+      "Paltas",
+      "Morrón en tiritas",
+      "Apio",
+      "Queso fresco natural (opcional)"
+    ],
+    "preparacion": "Cortar las verduras en palitos o rodajas. Servir con queso fresco natural o un dip de aceite de oliva y limón. Para hacer un dip vegetal: procesar zanahoria, calabaza ó remolacha hervidas, mezcladas con ajo, aceite de oliva y cualquier condimento que te guste.",
+    "conservacion": "1-2 días en heladera",
+    "categorias": ["merienda", "snack", "verduras", "vegetariano"]
+  }
+]
