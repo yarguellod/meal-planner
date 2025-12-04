@@ -16,7 +16,11 @@
     ],
     "preparacion": "Para comenzar, pica las espinacas, champiñones y cebolla. En una sartén con aceite de oliva frita la cebolla por un par de minutos. Incorpora los champiñones y la espinaca. Salpimienta y cocina 3-4 minutos. Lleva a un colador y deja escurrir. En un bowl batir los huevos, las claras, el queso, la leche, sal y pimienta. Incorpora el frito de verduras. Engrasa los moldes para muffins y serví la mezcla. Hornea aproximadamente 25 minutos a 160-180°C.",
     "conservacion": "2-3 días en heladera",
-    "categorias": ["desayuno", "huevos", "vegetariano"]
+    "categorias": [
+      "desayuno",
+      "huevos",
+      "vegetariano"
+    ]
   },
   {
     "id": "d2",
@@ -35,7 +39,11 @@
     ],
     "preparacion": "Cocina la papa (con cáscara). Una vez lista, enfría y retira la cáscara. Pica en cubos pequeños. En una sartén con aceite de oliva frita las verduras un par de minutos. En un bowl agrega los huevos batidos, las claras batidas, los cubos de papa cocida, las verduras fritas, sal y pimienta. Mezclar bien. Serví la mezcla en una sartén engrasada. Tapa y cocina hasta que luzca firme. Voltear y cocinar un par de minutos más hasta dorar.",
     "conservacion": "2-3 días en heladera",
-    "categorias": ["desayuno", "huevos", "vegetariano"]
+    "categorias": [
+      "desayuno",
+      "huevos",
+      "vegetariano"
+    ]
   },
   {
     "id": "d3",
@@ -57,7 +65,11 @@
     ],
     "preparacion": "Cocina los huevos en agua con sal durante 10-12 minutos. Enfría y quita la cáscara. Pica los huevos en pequeños cubos. En un bowl mezcla los huevos, queso cottage, yogurt griego, puré de palta, mostaza, cilantro, apio, jugo de limón, sal y pimienta. Mezclar hasta conseguir una crema gruesa. Rectifica sabores. Coloca sobre pan tostado.",
     "conservacion": "2-3 días en heladera",
-    "categorias": ["desayuno", "huevos", "vegetariano"]
+    "categorias": [
+      "desayuno",
+      "huevos",
+      "vegetariano"
+    ]
   },
   {
     "id": "d4",
@@ -77,7 +89,11 @@
     ],
     "preparacion": "En un bowl batir los huevos, las claras, el yogurt y la leche. Incorpora el queso rallado, la zanahoria rallada, la harina, polvo para hornear y sal. Batir bien. Engrasa los moldes para muffins y serví la mezcla. Hornea aproximadamente 25-30 minutos a 160-180°C.",
     "conservacion": "2-3 días en heladera",
-    "categorias": ["desayuno", "huevos", "vegetariano"]
+    "categorias": [
+      "desayuno",
+      "huevos",
+      "vegetariano"
+    ]
   },
   {
     "id": "d5",
@@ -97,7 +113,10 @@
     ],
     "preparacion": "En una sartén frita la panceta picada. Incorpora el morrón, zanahoria y puerro. Salpimienta y cocina. Escurre. En un bowl batir los huevos y claras. Incorpora las verduras fritas con panceta, arroz cocido, choclo, sal y pimienta. Mezclar bien. Precalienta una sartén con aceite de oliva, serví porciones de la mezcla. Cocina hasta dorar, voltea y cocina por el otro lado.",
     "conservacion": "2-3 días en heladera",
-    "categorias": ["desayuno", "huevos"]
+    "categorias": [
+      "desayuno",
+      "huevos"
+    ]
   },
   {
     "id": "d6",
@@ -120,7 +139,11 @@
     ],
     "preparacion": "Pica todas las verduras en pequeños cubitos. Precalienta una sartén con aceite de oliva y frita las verduras comenzando con las de mayor consistencia. Cocina hasta ablandar. Salpimienta. En un bowl agrega huevos, claras, leche, sal, pimienta y queso parmesano. Mezclar bien. Agrega las verduras fritas. Vierte la mezcla en un molde apto para horno. Lleva al horno a 160ºC durante 30-45 minutos o hasta que un cuchillo salga limpio.",
     "conservacion": "2-3 días en heladera",
-    "categorias": ["desayuno", "huevos", "vegetariano"]
+    "categorias": [
+      "desayuno",
+      "huevos",
+      "vegetariano"
+    ]
   },
   {
     "id": "d7",
@@ -137,7 +160,10 @@
     ],
     "preparacion": "Pincha la batata y cocina en air fryer o microondas hasta ablandar. Tritura con un tenedor. Lleva a un bowl y añade harina, linaza, 1 cda aceite de oliva y sal. Amasa bien hasta conseguir una masa uniforme. Extiende la masa de forma circular, rellena con pollo desmechado y cierra. Rocía con aceite de oliva y hornea en air fryer u horno hasta dorar (12-15 min a 180°C).",
     "conservacion": "3-5 días en heladera, 3 meses en freezer",
-    "categorias": ["desayuno", "pollo"]
+    "categorias": [
+      "desayuno",
+      "pollo"
+    ]
   },
   {
     "id": "d8",
@@ -157,7 +183,10 @@
     ],
     "preparacion": "En un bowl mezcla todos los ingredientes del burrito. Deja reposar 10 minutos. Precalienta una sartén con aceite y agrega una porción de la mezcla. Extiende uniformemente con una cuchara. Cocina hasta que no esté húmeda al tacto. Repite con el resto. Para emplatar, coloca el burrito y rellena con pollo, verduras y aderezo.",
     "conservacion": "3-5 días en heladera, 3 meses en freezer",
-    "categorias": ["desayuno", "pollo"]
+    "categorias": [
+      "desayuno",
+      "pollo"
+    ]
   },
   {
     "id": "d9",
@@ -179,7 +208,10 @@
     ],
     "preparacion": "Separa claras de yemas. En un bowl mezcla yemas, mostaza, leche, sal y pimienta. Incorpora pollo, cilantro, espinacas, polvo para hornear y queso. En otro bowl batir claras a punto de nieve con limón. Con movimientos envolventes agrega las claras a la mezcla de pollo. Engrasa moldes de cupcake y serví la mezcla. Hornear a 180ºC por 20 minutos aprox.",
     "conservacion": "3-5 días en heladera, 3 meses en freezer",
-    "categorias": ["desayuno", "pollo"]
+    "categorias": [
+      "desayuno",
+      "pollo"
+    ]
   },
   {
     "id": "d10",
@@ -196,7 +228,10 @@
     ],
     "preparacion": "Limpia la mandioca y córtala en trozos pequeños. Cocina en agua con sal hasta que esté muy suave. Enfría y tritura hasta obtener un puré. Agrega aceite de oliva y sal. Amasa bien. Forma tortitas con las manos o usando papel de film. Cocina en sartén u horno hasta dorar por ambas caras. Abre y rellena con pollo, palta y verduras.",
     "conservacion": "3-5 días en heladera, 3 meses en freezer",
-    "categorias": ["desayuno", "pollo"]
+    "categorias": [
+      "desayuno",
+      "pollo"
+    ]
   },
   {
     "id": "d11",
@@ -216,7 +251,11 @@
     ],
     "preparacion": "En un bowl batir huevos, queso cottage, leche, sal, pimienta y polvo para hornear. Mezclar bien hasta aumentar volumen. Precalienta una sartén antiadherente engrasada. Vierte la mezcla y esparce uniformemente (delgada). Cocina hasta que esté firme, voltea el omelette. Agrega pollo desmechado, hongos y cebollín. Dobla por la mitad y cocina unos segundos más.",
     "conservacion": "3-5 días en heladera, 3 meses en freezer",
-    "categorias": ["desayuno", "pollo", "huevos"]
+    "categorias": [
+      "desayuno",
+      "pollo",
+      "huevos"
+    ]
   },
   {
     "id": "d12",
@@ -234,7 +273,10 @@
     ],
     "preparacion": "Cocina el banana hasta que esté suave. Retira y cuela. En una sartén con aceite de oliva agrega acelga picadita y cocina hasta marchitar. Enfría. En un bowl agrega banana y tritúralo, incorpora atún al guiso, chía, harina de avena y acelga cocida. Agrega sal y amasa bien. Lleva a heladera por 15-20 minutos. Retira y arma bolitas. Lleva a freidora de aire u horno por 15 minutos a 180°C.",
     "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
-    "categorias": ["desayuno", "atun"]
+    "categorias": [
+      "desayuno",
+      "atun"
+    ]
   },
   {
     "id": "d13",
@@ -252,7 +294,10 @@
     ],
     "preparacion": "En un bowl serví todos los ingredientes de la tortita, agrega un chorrito de agua y amasa. Agrega agua hasta conseguir textura compacta y manejable. Precalienta una plancha con aceite de oliva. Dale forma a tus tortitas según tamaño y grosor. Cocina por ambos lados hasta dorar. Rellena con atún al guiso y palta.",
     "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
-    "categorias": ["desayuno", "atun"]
+    "categorias": [
+      "desayuno",
+      "atun"
+    ]
   },
   {
     "id": "d14",
@@ -269,7 +314,10 @@
     ],
     "preparacion": "Cocina la batata hasta que esté suave. Retira y cuela. Tritura con un tenedor hasta convertir en puré. En un bowl mezcla huevos batidos, atún al guiso, puré de batata, cilantro picadito, polvo para hornear, sal y pimienta. Mezclar bien. Vierte en un molde apto para hornear. Hornea 15-20 minutos a 160-180°C, hasta que esté firme y al introducir un palillo salga limpio.",
     "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
-    "categorias": ["desayuno", "atun"]
+    "categorias": [
+      "desayuno",
+      "atun"
+    ]
   },
   {
     "id": "d15",
@@ -290,7 +338,10 @@
     ],
     "preparacion": "Frita en una sartén con aceite de oliva todas las verduras hasta marchitar. Salpimienta. Déjalos escurrir en un colador. En un bowl agrega huevos batidos, leche y harina. Batir bien. Incorpora atún al guiso, verduras fritas, sal, pimienta y orégano. Revuelve bien. Vierte en moldes para cupcake y hornea aproximadamente 20-30 minutos a 160-180°C hasta que estén firmes.",
     "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
-    "categorias": ["desayuno", "atun"]
+    "categorias": [
+      "desayuno",
+      "atun"
+    ]
   },
   {
     "id": "d16",
@@ -309,7 +360,10 @@
     ],
     "preparacion": "Agrega en la licuadora atún al guiso, palta, jugo de limón, queso cottage, perejil, sal, pimienta y aceite de oliva. Procesa hasta integrar todos los ingredientes sin grumos y compacto. Si deseas más fluido agrega un chorrito agua. Sirve y acompaña con rebanadas tostadas de pan integral.",
     "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
-    "categorias": ["desayuno", "atun"]
+    "categorias": [
+      "desayuno",
+      "atun"
+    ]
   },
   {
     "id": "d17",
@@ -328,6 +382,175 @@
     ],
     "preparacion": "Precalienta el horno a 180ºC. Para la tartaleta: en un bowl serví harina de avena, avena en hojuelas, chía, sal, aceite de coco y un chorrito de agua. Amasa agregando agua hasta conseguir masa suave y manejable. Engrasa un molde y coloca la masa. Espárcela uniformemente. Pincha con tenedor y hornea 10-12 minutos. Para el relleno: batir huevos e incorpora atún al guiso. Cuando la base esté lista, serví el relleno y finaliza con mozzarella. Hornea 15 minutos aproximadamente hasta que esté firme y el queso gratinado.",
     "conservacion": "2-3 días en heladera, 1-2 meses en freezer",
-    "categorias": ["desayuno", "atun"]
+    "categorias": [
+      "desayuno",
+      "atun"
+    ]
+  },
+  {
+    "id": "d18",
+    "nombre": "Wraps de avena",
+    "base": "Cereales",
+    "porciones": 1,
+    "ingredientes": [
+      "3 cdas de harina de avena",
+      "1 cdita ajo en polvo o cebolla",
+      "1 pizca de sal",
+      "1 cda de aceite de oliva",
+      "1 cda de agua",
+      "1 huevo grande"
+    ],
+    "preparacion": "Combinar los ingredientes secos en un recipiente. Agregar el agua y el aceite, y por último el huevo. Batir hasta que quede bien integrado sin grumos. Verter la mezcla en un recipiente y cocinar en la sartén 2 o 3 minutos en el microondas. También se puede hacer versión dulce!",
+    "conservacion": "1-2 días en heladera",
+    "categorias": [
+      "desayuno",
+      "cereales",
+      "vegetariano"
+    ]
+  },
+  {
+    "id": "d19",
+    "nombre": "Tapioca",
+    "base": "Cereales",
+    "porciones": 1,
+    "ingredientes": [
+      "90 gr de tapioca",
+      "Sal a gusto",
+      "Semillas de chia (opcional)",
+      "Romero (opcional)",
+      "Relleno: huevo revuelto"
+    ],
+    "preparacion": "Calentar la sartén a fuego alto, una vez caliente, agregar la tapioca de manera a cubrir toda la superficie (no es necesario ningun tipo de aceite). Bajar el fuego y cocinar unos minutos. Antes de cocinar podes condimentar la tapioca con un poco de sal, orégano, pimienta o incluso agregarle un poco de queso rallado. Rellenar con huevo revuelto u otro relleno de tu preferencia.",
+    "conservacion": "Consumir inmediatamente",
+    "categorias": [
+      "desayuno",
+      "cereales",
+      "sin-gluten"
+    ]
+  },
+  {
+    "id": "d20",
+    "nombre": "Pan de avena y semillas",
+    "base": "Cereales",
+    "porciones": 4,
+    "ingredientes": [
+      "80 gr de harina de avena",
+      "1 huevo + 3 claras",
+      "Semillas varias (lino, girasol)",
+      "1 cdita polvo de hornear",
+      "2 cdas del salvado de avena o trigo",
+      "Sal a gusto",
+      "1 cda de manteca (opcional)"
+    ],
+    "preparacion": "Precalentar el horno a 180C. Separar la claras y reservar una yema, agregar la sal y batir las claras con una batidora manual hasta obtener una mezcla suave (no a punto de nieve). Agregar la avena, yema, el salvado, la manteca y el polvo de hornear, volver a batir suavemente y agregar las semillas. Mezclar bien y verter la mezcla en el molde. Si usas molde que no sea de silicona, rociar aceite para que no se pegue. Llevar al horno y cocinar por 30 minutos!",
+    "conservacion": "5-7 días en recipiente hermético",
+    "categorias": [
+      "desayuno",
+      "cereales",
+      "vegetariano"
+    ]
+  },
+  {
+    "id": "d21",
+    "nombre": "Granola express",
+    "base": "Cereales",
+    "porciones": 4,
+    "ingredientes": [
+      "250 gr de avena en hojuelas",
+      "Frutos secos al gusto",
+      "1 cda de aceite de coco",
+      "1 cda de miel",
+      "Soja texturizada (opcional)",
+      "Coco rallado (opcional)",
+      "Frutas deshidratadas (opcional)"
+    ],
+    "preparacion": "Tostar la avena dos minutos en la sartén a fuego medio (pero yo prefiero usar un wok). Agregar una cda de aceite de coco y seguir moviendo la avena hasta que se dore. De a poco ir incorporando los ingredientes y seguir moviendo. Por último agregar una cda de miel y mezclar todo muy bien. Dejar enfriar y guardar en un frasco. Una de mis opciones favoritas para el desayuno!",
+    "conservacion": "2-3 semanas en recipiente hermético",
+    "categorias": [
+      "desayuno",
+      "cereales",
+      "vegetariano"
+    ]
+  },
+  {
+    "id": "d22",
+    "nombre": "Porridge de avena",
+    "base": "Cereales",
+    "porciones": 1,
+    "ingredientes": [
+      "80 gr de avena en hojuelas",
+      "200 ml de leche de almendras (puede ser agua)",
+      "Miel al gusto",
+      "Canela",
+      "Manzana (o la fruta que te guste)"
+    ],
+    "preparacion": "Colocar los copos de avena en un recipiente, agregar agua caliente y tapar. Dejar reposar por unos minutos, hasta lograr una textura espesa. En caso de usar leche de almendras, poner en una olla la leche a calentar e incorporar la ramita de canela para que infusione. Mantener a fuego fuerte hasta el momento antes de que entre en ebullición. En ese instante bajar el fuego, retirar la canela y verter los copos de avena. Remover a fuego medio durante unos 10 minutos hasta conseguir la textura deseada. Manzana y canela es una de mis combinaciones favoritas!",
+    "conservacion": "1-2 días en heladera",
+    "categorias": [
+      "desayuno",
+      "cereales",
+      "vegetariano"
+    ]
+  },
+  {
+    "id": "d23",
+    "nombre": "Mermelada de arándanos",
+    "base": "Frutas",
+    "porciones": 4,
+    "ingredientes": [
+      "400 gr de arándanos",
+      "2 cdas de miel",
+      "Jugo de medio limón",
+      "10 gr de semillas de chía"
+    ],
+    "preparacion": "Poner los arándanos en un bowl tapados con papel transparente, hacerle algunos agujeritos. Llevar al microondas por 3 minutos y 30 segundos a máxima potencia. Sacar y remover, volver a meter por 1 minuto y 30 segundos a máxima potencia. Retirar 2 o 3 cditas de arándanos para encontrar fruta entera en la mermelada. Al resto, agregar la miel y hacer puré. Por último mezclar el puré con los arándanos enteros y agregar la cucharada de semillas de chía. Remover y dejar espesar durante unos 10 minutos antes de verter la mermelada en un frasco de vidrio y guardar en la heladera. Dura 1 semana en la heladera!",
+    "conservacion": "1 semana en heladera",
+    "categorias": [
+      "desayuno",
+      "frutas",
+      "vegetariano",
+      "dulce"
+    ]
+  },
+  {
+    "id": "d24",
+    "nombre": "Pudín de chía de chocolate",
+    "base": "Lácteos",
+    "porciones": 2,
+    "ingredientes": [
+      "6 cdas de semillas de chía",
+      "2 cdas de cacao en polvo",
+      "1 taza de leche vegetal (250 ml)",
+      "Edulcorante a gusto"
+    ],
+    "preparacion": "Mezclar todos los ingredientes en un bowl, remover hasta que estén bien integrados y dejar reposar 15 minutos. Volver a remover y poner la mezcla en un tupper en la heladera durante al menos 4 horas, aunque lo ideal es dejarlo toda la noche. Repartir la mezcla en vasitos y decorar con tus ingredientes preferidos. Topping sugerido: rodajas de banana, pistachos troceados y nibs de cacao.",
+    "conservacion": "2-3 días en heladera",
+    "categorias": [
+      "desayuno",
+      "lacteos",
+      "vegetariano",
+      "dulce"
+    ]
+  },
+  {
+    "id": "d25",
+    "nombre": "Galletitas de avena y banana",
+    "base": "Cereales",
+    "porciones": 12,
+    "ingredientes": [
+      "2 bananas grandes",
+      "1 taza de avena",
+      "1 cda de manteca de maní (opcional)",
+      "1/2 cda de almendras, semillas de girasol, semillas de calabaza o nueces picadas",
+      "1/2 cucharada de pasas (opcional)"
+    ],
+    "preparacion": "Hacer puré de las bananas en un bowl luego agregar el resto de ingredientes. Mezclar los ingredientes, asegurate de no mezclar demasiado o las galletitas no se van a unir. Con la ayuda de una cuchara sacar 12 o 13 bolitas y luego ubicarlas en una bandeja para hornear con papel vegetal o engrasada. Aplastar las bolitas para que tengan forma de galletitas, pero no aplastarlas demasiado! Hornear en horno precalentado a 180 C por 10 a 15 minutos. Con las bananas ya queda dulce, pero podes agregar edulcorante o miel!",
+    "conservacion": "5-7 días en recipiente hermético",
+    "categorias": [
+      "desayuno",
+      "cereales",
+      "vegetariano",
+      "dulce"
+    ]
   }
 ]
